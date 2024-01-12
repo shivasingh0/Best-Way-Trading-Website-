@@ -15,55 +15,55 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // =================== light and dark start ================== //
 
-const colorSwitcher = document.getElementById('btnSwitch');
+// const colorSwitcher = document.getElementById('btnSwitch');
 
 
-switchThemeByUrl();
-updateThemeColor(localStorage.getItem('theme'))
+// switchThemeByUrl();
+// updateThemeColor(localStorage.getItem('theme'))
 
 
-colorSwitcher.addEventListener('click', () => {
+// colorSwitcher.addEventListener('click', () => {
 
-    const theme = localStorage.getItem('theme');
+//     const theme = localStorage.getItem('theme');
 
-    if (theme && theme === 'dark') {
+//     if (theme && theme === 'dark') {
 
-        updateThemeColor('light');
+//         updateThemeColor('light');
 
-    } else {
-        updateThemeColor('dark');
+//     } else {
+//         updateThemeColor('dark');
 
-    }
+//     }
 
-});
+// });
 
-function updateThemeColor(themeMode = 'light') {
+// function updateThemeColor(themeMode = 'light') {
 
-    document.documentElement.setAttribute('data-bs-theme', themeMode);
-    localStorage.setItem('theme', themeMode)
+//     document.documentElement.setAttribute('data-bs-theme', themeMode);
+//     localStorage.setItem('theme', themeMode)
 
-    if (themeMode === 'dark') {
-        colorSwitcher.classList.add('dark-switcher');
+//     if (themeMode === 'dark') {
+//         colorSwitcher.classList.add('dark-switcher');
 
-    } else {
-        colorSwitcher.classList.remove('dark-switcher');
-    }
+//     } else {
+//         colorSwitcher.classList.remove('dark-switcher');
+//     }
 
-    changeImage(themeMode);
+//     changeImage(themeMode);
 
-}
+// }
 
 
 
-function switchThemeByUrl() {
-    const urlParams = new URLSearchParams(window.location.search);
-    const theme = urlParams.get('theme');
+// function switchThemeByUrl() {
+//     const urlParams = new URLSearchParams(window.location.search);
+//     const theme = urlParams.get('theme');
 
-    if (theme) {
-        localStorage.setItem("theme", theme);
-    }
+//     if (theme) {
+//         localStorage.setItem("theme", theme);
+//     }
 
-}
+// }
 
 // =================== light and dark end ================== //
 
