@@ -11408,3 +11408,17 @@ html[data-bs-theme=dark] .partner--gradient::after {
 }
 
 /* Contact page end */
+
+/* eKYC page start */
+.kyc-image{
+  width: 385px;
+  margin-left: 55px;
+}
+.nav-item .nav-link{
+  cursor: pointer;
+  color: #000;
+}
+.nav-item .nav-link.active{
+  background: #00D094;
+}
+/* eKYC page end */
