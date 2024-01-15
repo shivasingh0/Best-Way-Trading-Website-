@@ -7892,6 +7892,7 @@ textarea:focus-within {
   background-color: var(--body-color);
   padding: 16px;
   border-radius: 8px;
+  height: 350px;
 }
 .feature--style2 .feature__item-thumb {
   margin-block-end: 24px;
@@ -11422,3 +11423,241 @@ html[data-bs-theme=dark] .partner--gradient::after {
   background: #00D094;
 }
 /* eKYC page end */
+
+/* Risk analysis start */
+.photo_div_style {
+  height: 140px;
+  width: 130px;
+  border: 1px solid #000000;
+  padding: 10px;
+  margin-left: auto;
+  margin-top: 25px;
+}
+
+.photo_div_style p {
+  font-size: 11px;
+text-align:center;
+}
+
+.div_border_style {
+  border: 1px solid #000000;
+}
+
+.div_heading_style {
+  background-color: #00D094;
+  padding-left: 20px;
+  padding: 10px;
+}
+.div_heading_style h6 {
+color: white !important;
+font-weight: 700;
+}
+
+.div_style {
+  border-bottom: 1px solid #000000;
+}
+
+.h5_style {
+  padding-left: 13px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+font-size:14px;
+}
+
+.h6_style {
+  padding-left: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+font-size:12px;
+}
+
+.div_thred_style {
+  border-right: 1px solid #000000;
+  line-height: 1.5;
+}
+
+.width-15 {
+  width: 70px;
+}
+
+.width-25 {
+  width: 165px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.width-35 {
+  width: 225px;
+}
+
+.width-40 {
+  width: 380px;
+}
+
+.width-50 {
+  margin: 10px;
+  width: 50%;
+}
+
+.form_control_style {
+  margin-left: 0px;
+  margin-right: 8px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #ced4da;
+}
+
+.date_input_style {
+  height: 28px;
+  width: 150px;
+}
+
+.date_lable_style {
+  margin-left: 68px;
+}
+
+.important_point_div_style {
+  margin-left: 60px;
+}
+.d-flex{
+  display: flex;
+}
+.mb-0{
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.justify-content-between{
+  justify-content: space-between!important;
+}
+.label.mr-2 {
+font-weight: 700;
+}
+/* Risk analysis end */
+
+/* scrollbar css start */
+
+body {
+  --sb-track-color: #00d094;
+  --sb-thumb-color: #00150f;
+  --sb-size: 10px;
+
+  scrollbar-color: var(--sb-thumb-color) 
+                   var(--sb-track-color);
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size) 
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 10px;
+  
+  }
+/* scrollbar css end */
+
+/* Choose section start */
+
+.choose {
+  padding-bottom: 20px;
+  padding-top: 80px;
+}
+
+.choose__item {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  text-align: center;
+  padding: 0 30px 60px;
+  margin-bottom: 80px;
+  height: 260px;
+}
+
+/* .choose__item img {
+  margin-top: -40px;
+  filter: hue-rotate(315deg);
+} */
+
+.choose__item h5 {
+  font-size: 20px;
+  color: #323232;
+  font-weight: 700;
+  margin-bottom: 12px;
+  margin-top: 35px;
+}
+
+.choose__item p {
+  margin-bottom: 0;
+}
+
+/* Choose section end */
+
+/* Footer section start */
+.footer__copyright__links li {
+  list-style: none;
+  display: inline-block;
+  line-height: 20px;
+  position: relative;
+  margin-right: 45px;
+}
+.footer__copyright__links li::after {
+  position: absolute;
+  right: -28px;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background: #fff;
+  content: "";
+}
+.footer__copyright__links li:last-child::after {
+  display: none;
+}
+/* Footer section end */
+
+/* whatsapp sticky start */
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 250px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+.my-float {
+  margin-top: 15px;
+}
+/* whatsapp sticky end */
+
+/* loop animation css start */
+.floating-boxes{
+  animation: float 2s infinite linear;
+}
+@keyframes float {
+  0% {
+    transform: translateX(0px);
+  }
+
+  50% {
+    transform: translateX(25px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+/* loop animation css end */
