@@ -84,6 +84,10 @@ Tags: Crypto, Forex, and Stocks Trading Business
   flex-wrap: wrap;
 }
 
+.theme-color-code{
+
+}
+
 .footer__app-inner, .account__social-btn, .banner--style4 .banner__content-btn, .subtitle--style2, .home-showcase__buttons, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a {
   justify-content: center;
 }
@@ -485,7 +489,7 @@ ol {
 
 /* @@@@@@@@@@@@@  aditional Property CSS Writing Now  @@@@@@@@@@@@@@ */
 :root {
-  --brand-color: #00D094;
+  --brand-color: #42C1BA;
   --secondary-color:#0A4FD5;
   --tertiary-color: #E0FAF2;
   --tertiary-color2: #F5F7FC;
@@ -11159,6 +11163,13 @@ html[data-bs-theme=dark] .partner--gradient::after {
 }
 
 /* ----------------- Manual CSS -------------------- */
+
+.logo-header{
+  width: 280px;
+}
+.preloader-logo{
+  width: 280px;
+}
 /* Index page start */
 .spad {
   padding-top: 100px;
@@ -11444,7 +11455,7 @@ text-align:center;
 }
 
 .div_heading_style {
-  background-color: #00D094;
+  background-color: #42C1BA;
   padding-left: 20px;
   padding: 10px;
 }
@@ -11540,7 +11551,7 @@ font-weight: 700;
 /* scrollbar css start */
 
 body {
-  --sb-track-color: #00d094;
+  --sb-track-color: #42c1ba;
   --sb-thumb-color: #00150f;
   --sb-size: 10px;
 
@@ -11630,13 +11641,16 @@ body::-webkit-scrollbar-thumb {
   height: 60px;
   bottom: 250px;
   right: 40px;
-  background-color: #25d366;
+  background-color: #42c1ba;
   color: #FFF;
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
   box-shadow: 2px 2px 3px #999;
   z-index: 100;
+}
+.float:hover .my-float{
+  color: #00150f;
 }
 .my-float {
   margin-top: 15px;
@@ -11661,3 +11675,12 @@ body::-webkit-scrollbar-thumb {
   }
 }
 /* loop animation css end */
+
+/* new theme color codes start */
+.text-color-code{
+  color: #42C1BA !important;
+}
+.bg-color-code{
+  background-color: #42C1BA !important;
+}
+/* new theme color codes end */
