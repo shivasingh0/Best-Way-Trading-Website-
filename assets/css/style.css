@@ -11170,6 +11170,11 @@ html[data-bs-theme=dark] .partner--gradient::after {
 .preloader-logo{
   width: 280px;
 }
+.footer-logo{
+  background: white;
+  width: 210px;
+  padding: 3px 12px;
+}
 /* Index page start */
 .spad {
   padding-top: 100px;
