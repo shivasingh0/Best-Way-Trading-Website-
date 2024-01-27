@@ -366,7 +366,7 @@
         }
 
         .testimonial-area {
-            background: #137BBA;
+            background: #22A59D;
             position: relative;
             z-index: 2;
             padding: 50px 0;
@@ -408,7 +408,7 @@
             position: absolute;
             left: -35px;
             top: -35px;
-            background: url("assets/images/quote.png") no-repeat #137BBA;
+            background: url("assets/images/quote.png") no-repeat #22A59D;
             background-size: 60%;
             width: 126px;
             height: 100px;
@@ -421,7 +421,7 @@
             position: absolute;
             right: -35px;
             bottom: -34px;
-            background: url("assets/images/quote.png") no-repeat #137BBA;
+            background: url("assets/images/quote.png") no-repeat #22A59D;
             background-size: 60%;
             width: 126px;
             height: 100px;
@@ -709,6 +709,7 @@
         .table tr td,
         .table tr th {
             padding: 5px;
+            /* width: 10px; */
         }
 
         .section-grey {
@@ -809,54 +810,66 @@
                     </div>
                     <div class="col-md-5 flex-inner" id="register">
                         <div class="register_form_div">
-                            <h2 class="mb-3" style="margin-top: -30px !important">Register for Free Trial </h2>
-                            <form id="chimp-form" class="subscribe-form" method="post" accept-charset="UTF-8"
-                                autocomplete="off" name="Subscriber leads Cash "
-                                action="Subscriber/saveSubscriberFree.html" enctype="multipart/form-data">
-                                <input type="hidden" name="_token" value="Dbx7TI43eSL11G7PmlZifSXhVYP64qirt8BiUN0P">
-                                <input type="hidden" name="servicename" value="pay-when-you-profit">
-                                <input type="hidden" name="utm_source" value="">
-                                <input type="hidden" name="utm_medium" value="">
-                                <input type="hidden" name="utm_campaign" value="">
-                                <input type="hidden" name="utm_term" value="">
-                                <input type="hidden" name="clickid" value="0">
-                                <input type="hidden" name="utm_content" value="">
-                                <input class="form-control mb-3 form-inp" id="lastname" type="text" name="lastname"
-                                    placeholder="Enter Your Full Name" value="" autocomplete="off" required>
-                                <input class="form-control mb-3 form-inp" id="mobile" type="text"
-                                    pattern="[6789][0-9]{9}" title="Please Enter Valide Phone No." name="mobile"
-                                    value="" placeholder="Enter Your Phone No." autocomplete="off" required>
-                                <div id="prompt" class="error"></div>
-                                <div class="clearfix"></div>
-                                <input class="form-control mb-3 form-inp" id="email" type="email" name="email"
-                                    placeholder="Enter Your Email Address" autocomplete="off" value="" required>
-                                <select class="form-control mb-3 form-inp" name="serviceid" id="serviceid" required>
-                                    <option>- Select Service -</option>
-                                    <option>Basic Stock Cash Services</option>
-                                    <option>Basic Stock Future Services</option>
-                                    <option>Basic Stock Option Services</option>
-                                    <option>Basic Index Future Services</option>
-                                    <option>Stock Cash Premium Services</option>
-                                    <option>Stock Future Premium Services</option>
-                                    <option>Stock Option Premium Services</option>
-                                    <option>Stock Index Option Services</option>
-                                </select>
-                                <!-- <select class="form-control mb-3 form-inp" name="langid" id="langid" required>
-                                    <option value="">- Select Language -</option>
-                                    <option value="1">English</option>
-                                    <option value="2">Hindi</option>
-                                    <option value="3">Kannada</option>
-                                    <option value="4">Tamil</option>
-                                    <option value="5">Telgu</option>
-                                </select> -->
-                                <label class="containerLabel">
-                                    <input type="checkbox" name="tnc" id="tnc" value="1" checked>
-                                    <span class="checkmark"></span>
-                                    <a href="TermsConditions.html" class="color-code" target="_blank">Subscribe to weekly newsletter, terms
-                                        & condition</a>
+                            <!-- <h2 class="mb-3" style="margin-top: -30px !important">Register for Free Trial </h2> -->
+                            <form class="form">
+                                <p class="title">Register for Free Trial </p>
+                                <!-- <p class="message">Signup now and get full access to our app. </p> -->
+
+                                <label>
+                                    <input class="input" type="text" placeholder="" required="">
+                                    <span>Full Name</span>
                                 </label>
-                                <input class="btn btn-primary w-100 bg-color-code" type="submit"
-                                    value="SUBSCRIBE">
+
+                                <label>
+                                    <input class="input" type="text" placeholder="" required="">
+                                    <span>Mobile No.</span>
+                                </label>
+
+                                <label>
+                                    <input class="input" type="email" placeholder="" required="">
+                                    <span>Email</span>
+                                </label>
+
+                                <label>
+                                    <!-- <input class="input" type="email" placeholder="" required=""> -->
+                                    <select class="input">
+                                        <option value="">- Select Service -</option>
+                                        <option value="">Basic Stock Cash</option>
+                                        <option value="">Basic Stock Future</option>
+                                        <option value="">Basic Stock Option</option>
+                                        <option value="">Basic Index Future</option>
+                                        <option value="">Stock Cash Premium</option>
+                                        <option value="">Stock Future Premium</option>
+                                        <option value="">Stock Option Premium</option>
+                                        <option value="">Stock Index Option</option>
+                                    </select>
+                                </label>
+
+                                <div style="    display: flex;
+                                gap: 7px;">
+                                    <div class="checkbox-wrapper-12">
+                                        <div class="cbx">
+                                          <input id="cbx-12" type="checkbox"/>
+                                          <label for="cbx-12"></label>
+                                          <svg width="15" height="14" viewbox="0 0 15 14" fill="none">
+                                            <path d="M2 8.36364L6.23077 12L13 2"></path>
+                                          </svg>
+                                        </div>
+                                        <!-- Gooey-->
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                                          <defs>
+                                            <filter id="goo-12">
+                                              <fegaussianblur in="SourceGraphic" stddeviation="4" result="blur"></fegaussianblur>
+                                              <fecolormatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 22 -7" result="goo-12"></fecolormatrix>
+                                              <feblend in="SourceGraphic" in2="goo-12"></feblend>
+                                            </filter>
+                                          </defs>
+                                        </svg>
+                                      </div>
+                                      
+                                     Subscribe to weekly newsletter, terms & conditions </div>
+
+                                <button class="submit">Submit</button>
                             </form>
                             <div id="response"></div>
                         </div>
@@ -867,14 +880,16 @@
         <div class="section-white">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12">
-                        <div class="chartbtns"><button class="btn btn-info bg-color-code" data-id="last7days">Last 7 Days</button>
-                            <button class="btn btn-info bg-color-code" data-id="last15days">Last 15 Days</button> <button
-                                class="btn btn-info bg-color-code" data-id="lastmonth">Last Month</button> <button
-                                class="btn btn-info bg-color-code" data-id="thisyear">This Year</button> <button class="btn btn-info bg-color-code"
-                                data-id="lastyear">Last Year</button></div>
+                    <div class="col-lg-12 col-md-12" data-aos="fade-left">
+                        <div class="chartbtns"><button class="btn btn-info bg-color-code" data-id="last7days">Last 7
+                                Days</button>
+                            <button class="btn btn-info bg-color-code" data-id="last15days">Last 15 Days</button>
+                            <button class="btn btn-info bg-color-code" data-id="lastmonth">Last Month</button> <button
+                                class="btn btn-info bg-color-code" data-id="thisyear">This Year</button> <button
+                                class="btn btn-info bg-color-code" data-id="lastyear">Last Year</button>
+                        </div>
                     </div>
-                    <div class="col-md-4 chart-side">
+                    <div class="col-md-4 chart-side" data-aos="fade-right">
                         <div class="chartgauge" id="gauge-last7days">
                             <div class="sc-gauge">
                                 <div class="sc-background">
@@ -942,7 +957,7 @@
                                 Now</a>
                         </div>
                     </div>
-                    <div class="col-md-8 chartsection">
+                    <div class="col-md-8 chartsection" data-aos="fade-left">
                         <div class="chartbox" id="last7days">
                             <canvas id="last7days-bar-chart" width="800" height="450"></canvas>
                         </div>
@@ -962,7 +977,7 @@
                     <div class="col-md-4 chart-side desktop-none">
                         <h1>Honest and transparent performance </h1>
                         <p>Performance is updated daily</p>
-                        <a href="#register" class="btn btn-info" style="background-color: #137bba;">Subscribe Now</a>
+                        <a href="#register" class="btn btn-info bg-color-code" style="background-color: #137bba;">Subscribe Now</a>
                     </div>
                 </div>
             </div>
@@ -972,13 +987,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
-                        <div class="features-intro text-center">
+                        <div class="features-intro text-center" data-aos="fade-down">
                             <h1>Our Recent Winning Trades </h1>
                         </div>
-                        <table class="table table-bordered col-md-12 tblreport table-bordered table-condensed cf">
+                        <table class="table table-bordered col-md-12 tblreport table-bordered table-condensed cf" data-aos="fade-up">
                             <thead>
                                 <tr style="font-weight:bold;">
-                                    <th style="width:80px;">DATE</th>
+                                    <th style="width:100px;">DATE</th>
                                     <!-- <th>SERVICE</th> -->
                                     <th>SYMBOL</th>
                                     <!-- <th>ACTION</th>
@@ -1009,9 +1024,9 @@
                                             <td>199.00</td>
                                             <td>0.00</td>
                                             <td>0.00</td> -->
-                                    <td style="font-weight:bold; text-align:center;" class="txt-light-green">
+                                    <td style="font-weight:bold; text-align:center;" class="color-code">
                                         &nbsp;+32.50%</td>
-                                    <td style="font-weight:bold; text-align:center;" class="txt-light-green">&#8377;
+                                    <td style="font-weight:bold; text-align:center;" class="color-code">&#8377;
                                         29250</td>
                                     <!-- <td><span class="light-green btn-sm m-b-3">Target 1 Hit</span></td> -->
                                 </tr>
@@ -1028,9 +1043,9 @@
                                             <td>400.00</td>
                                             <td>500.00</td>
                                             <td>0.00</td> -->
-                                    <td style="font-weight:bold; text-align:center;" class="txt-light-green">
+                                    <td style="font-weight:bold; text-align:center;" class="color-code">
                                         &nbsp;+21.95%</td>
-                                    <td style="font-weight:bold; text-align:center;" class="txt-light-green">&#8377;
+                                    <td style="font-weight:bold; text-align:center;" class="color-code">&#8377;
                                         5400</td>
                                     <!-- <td><span class="light-green btn-sm m-b-3">Target 1 Hit</span></td> -->
                                 </tr>
@@ -1047,9 +1062,9 @@
                                             <td>230.00</td>
                                             <td>340.00</td>
                                             <td>0.00</td> -->
-                                    <td style="font-weight:bold; text-align:center;" class="txt-light-green">
+                                    <td style="font-weight:bold; text-align:center;" class="color-code">
                                         &nbsp;+45.92%</td>
-                                    <td style="font-weight:bold; text-align:center;" class="txt-light-green">&#8377;
+                                    <td style="font-weight:bold; text-align:center;" class="color-code">&#8377;
                                         48150</td>
                                     <!-- <td><span class="light-green btn-sm m-b-3">Target 1 Hit</span></td> -->
                                 </tr>
@@ -1066,9 +1081,9 @@
                                             <td>15.00</td>
                                             <td>19.00</td>
                                             <td>0.00</td> -->
-                                    <td style="font-weight:bold; text-align:center;" class="txt-light-green">
+                                    <td style="font-weight:bold; text-align:center;" class="color-code">
                                         &nbsp;+11.76%</td>
-                                    <td style="font-weight:bold; text-align:center;" class="txt-light-green">&#8377;
+                                    <td style="font-weight:bold; text-align:center;" class="color-code">&#8377;
                                         6800</td>
                                     <!-- <td><span class="light-green btn-sm m-b-3">Target 1 Hit</span></td> -->
                                 </tr>
@@ -1085,9 +1100,9 @@
                                             <td>15.00</td>
                                             <td>19.00</td>
                                             <td>0.00</td> -->
-                                    <td style="font-weight:bold; text-align:center;" class="txt-light-green">
+                                    <td style="font-weight:bold; text-align:center;" class="color-code">
                                         &nbsp;+11.76%</td>
-                                    <td style="font-weight:bold; text-align:center;" class="txt-light-green">&#8377;
+                                    <td style="font-weight:bold; text-align:center;" class="color-code">&#8377;
                                         6800</td>
                                     <!-- <td><span class="light-green btn-sm m-b-3">Target 1 Hit</span></td> -->
                                 </tr>
@@ -1104,9 +1119,9 @@
                                             <td>230.00</td>
                                             <td>390.00</td>
                                             <td>0.00</td> -->
-                                    <td style="font-weight:bold; text-align:center;" class="txt-light-green">
+                                    <td style="font-weight:bold; text-align:center;" class="color-code">
                                         &nbsp;+17.47%</td>
-                                    <td style="font-weight:bold; text-align:center;" class="txt-light-green">&#8377;
+                                    <td style="font-weight:bold; text-align:center;" class="color-code">&#8377;
                                         52200</td>
                                     <!-- <td><span class="light-green btn-sm m-b-3">Target 1 Hit</span></td> -->
                                 </tr>
@@ -1123,9 +1138,9 @@
                                             <td>575.00</td>
                                             <td>625.00</td>
                                             <td>0.00</td> -->
-                                    <td style="font-weight:bold; text-align:center;" class="txt-light-green">
+                                    <td style="font-weight:bold; text-align:center;" class="color-code">
                                         &nbsp;+3.73%</td>
-                                    <td style="font-weight:bold; text-align:center;" class="txt-light-green">&#8377;
+                                    <td style="font-weight:bold; text-align:center;" class="color-code">&#8377;
                                         3704</td>
                                     <!-- <td><span class="light-green btn-sm m-b-3">Target 1 Hit</span></td> -->
                                 </tr>
@@ -1142,9 +1157,9 @@
                                             <td>228.00</td>
                                             <td>234.00</td>
                                             <td>237.00</td> -->
-                                    <td style="font-weight:bold; text-align:center;" class="txt-dark-green">&nbsp;+2.09%
+                                    <td style="font-weight:bold; text-align:center;" class="color-code">&nbsp;+2.09%
                                     </td>
-                                    <td style="font-weight:bold; text-align:center;" class="txt-dark-green">&#8377; 4161
+                                    <td style="font-weight:bold; text-align:center;" class="color-code">&#8377; 4161
                                     </td>
                                     <!-- <td><span class="dark-green btn-sm m-b-3">Target 2 Hit</span></td> -->
                                 </tr>
@@ -1161,9 +1176,9 @@
                                             <td>228.00</td>
                                             <td>234.00</td>
                                             <td>237.00</td> -->
-                                    <td style="font-weight:bold; text-align:center;" class="txt-dark-green">&nbsp;+2.09%
+                                    <td style="font-weight:bold; text-align:center;" class="color-code">&nbsp;+2.09%
                                     </td>
-                                    <td style="font-weight:bold; text-align:center;" class="txt-dark-green">&#8377; 4161
+                                    <td style="font-weight:bold; text-align:center;" class="color-code">&#8377; 4161
                                     </td>
                                     <!-- <td><span class="dark-green btn-sm m-b-3">Target 2 Hit</span></td> -->
                                 </tr>
@@ -1180,16 +1195,16 @@
                                             <td>180.00</td>
                                             <td>370.00</td>
                                             <td>600.00</td> -->
-                                    <td style="font-weight:bold; text-align:center;" class="txt-dark-green">
+                                    <td style="font-weight:bold; text-align:center;" class="color-code">
                                         &nbsp;+106.90%</td>
-                                    <td style="font-weight:bold; text-align:center;" class="txt-dark-green">&#8377; 4650
+                                    <td style="font-weight:bold; text-align:center;" class="color-code">&#8377; 4650
                                     </td>
                                     <!-- <td><span class="dark-green btn-sm m-b-3">Target 2 Hit</span></td> -->
                                 </tr>
                             </tbody>
                         </table>
-                        <div class="col-md-12" style="text-align: center;">
-                            <a href="#register" class="btn btn-info" style="background-color: #137bba;">Subscribe
+                        <div class="col-md-12" style="text-align: center;" data-aos="fade-right">
+                            <a href="#register" class="btn btn-info bg-color-code">Subscribe
                                 Now</a>
                         </div>
                     </div>
@@ -1198,7 +1213,7 @@
         </div>
     </div>
     <section class="testimonial-area">
-        <div class="container">
+        <div class="container" data-aos="fade-up">
             <div class="sec-title white-title">
                 <h2>Testimonials</h2>
                 <p>Inspiring Words From Our Traders</p>
@@ -1208,102 +1223,59 @@
                 <div class="single-testimonial">
                     <div class="round-1 round"></div>
                     <div class="round-2 round"></div>
-                    <p>You guys really work hard to support Indian retail traders, we are forntunate to have your
-                        support in my trading.</p>
+                    <p> Service is ok Not that much Profit i gained but yes no
+                        loss also i will give 4 star as per my service charge i
+                        recovered thanks......Vikas</p>
                     <div class="client-info">
                         <div class="client-details">
-                            <h6>- Amith bhandari</h6>
+                            <h6>- Ramya Singh</h6>
                         </div>
                     </div>
                 </div>
                 <div class="single-testimonial">
                     <div class="round-1 round"></div>
                     <div class="round-2 round"></div>
-                    <p>The services are truely excellent , we know nobody can have 100% accurancy, but you have helped
-                        me to over come the loss making trading into profits.</p>
+                    <p>I m happy to take service from Best Way Smart Financial
+                        thanks.</p>
                     <div class="client-info">
                         <div class="client-details">
-                            <h6>- Anil kumar</h6>
+                            <h6>- Mukesh Singh</h6>
                         </div>
                     </div>
                 </div>
                 <div class="single-testimonial">
                     <div class="round-1 round"></div>
                     <div class="round-2 round"></div>
-                    <p>There are so many advisories i have tried, but Streetgains is my last resort to put an end to it.
-                        I got your Stocks options very well</p>
+                    <p> I am highly satisfied from Best Way Smart Financial
+                        Services . the Index calls is very good and stock option
+                        also , thanks a lot Parmeshwar of smart financials.</p>
                     <div class="client-info">
                         <div class="client-details">
-                            <h6>- Neeraj</h6>
+                            <h6>- Amit Jaiswal</h6>
                         </div>
                     </div>
                 </div>
                 <div class="single-testimonial">
                     <div class="round-1 round"></div>
                     <div class="round-2 round"></div>
-                    <p>I am a crude subscriber , you guys are giving good calls in crude . I am a subscriber to your
-                        services since 2 years and its all going good</p>
+                    <p> Service price is really great i took super service but
+                        got higher level quality 95 % accuracy great experiance
+                        with Best Way Smart Financial thanks.............</p>
                     <div class="client-info">
                         <div class="client-details">
-                            <h6>- Sreeshan</h6>
+                            <h6>- Vivek Kothari</h6>
                         </div>
                     </div>
                 </div>
                 <div class="single-testimonial">
                     <div class="round-1 round"></div>
                     <div class="round-2 round"></div>
-                    <p>Its all I started with one service from you guys, initially I was quite okay, later I understood
-                        how to trade in markets . The research team explained me about trading psychology. I am happy
-                        that I am able to earn a decent now</p>
+                    <p>I book loss of 20000 bcoz i forget to mention the stop
+                        loss kindly give another call to recover as you gave
+                        last time.</p>
                     <div class="client-info">
                         <div class="client-details">
-                            <h6>- Prasanna</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-testimonial">
-                    <div class="round-1 round"></div>
-                    <div class="round-2 round"></div>
-                    <p>Hi streetgains, I am new to markets and happy with your calls in cash market . Initially I was
-                        scared to trade all the calls, later I am able to trade them all with direct order placement to
-                        my Zerodha account. Good to be a part of your clients</p>
-                    <div class="client-info">
-                        <div class="client-details">
-                            <h6>- Ashish tiwari</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-testimonial">
-                    <div class="round-1 round"></div>
-                    <div class="round-2 round"></div>
-                    <p>Dear team, you are doing a fabulous work to retail traders, the direct order placement is one of
-                        the best strategies that I have experienced. Good work from you</p>
-                    <div class="client-info">
-                        <div class="client-details">
-                            <h6>- Rajanath singh</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-testimonial">
-                    <div class="round-1 round"></div>
-                    <div class="round-2 round"></div>
-                    <p>Hello Streetgains, its been a wonderful experience with your trades. I am a subscriber of Index
-                        Options. Orders are easily placed into my account. Great experience. Thanks to the entire team
-                        for solving this issue.</p>
-                    <div class="client-info">
-                        <div class="client-details">
-                            <h6>- Sagar</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-testimonial">
-                    <div class="round-1 round"></div>
-                    <div class="round-2 round"></div>
-                    <p>I am a new trader here, my first trade in JINDALSTEL options gave me confidence in making money.
-                        I blindly depend on your recommendations. My orders placed without any issue</p>
-                    <div class="client-info">
-                        <div class="client-details">
-                            <h6>- Mohammed</h6>
+                            <h6>- Dhriti Singh</h6>
                         </div>
                     </div>
                 </div>
@@ -1311,7 +1283,7 @@
         </div>
         </div>
     </section>
-    <div class="section-white infobox">
+    <!-- <div class="section-white infobox">
         <div class="container">
             <div class="row">
                 <div class="features-intro" style="text-align:center; width:100%;">
@@ -1348,52 +1320,46 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Array Reviews Ends -->
-    <div class="clearfix"></div>
-    <footer class="footer-sm">
-        <div class="container">
+    <!-- <div class="clearfix"></div> -->
+    <footer class="footer-sm" data-aos="fade-up">
+        <div class="container" >
             <div class="row">
                 <!-- ABOUT -->
-                <div class="col-md-9">
+                <div class="col-md-9" data-aos="fade-right">
                     <h6>About Us</h6>
                     <p style="color:#fff; font-size:1rem; text-align:justify; line-height:1.5; padding-left:10px;">
-                        Streetgains is a business name that is explained as Stock market Research with Entry, Exit, and
-                        Target for Gains.
-                        We are a team of professionals with 10+ years of experience in research and trading in Indian
-                        Markets. Streetgains is formed on the basis of providing research support to Indian retail
-                        traders and investors <br>
-                        To reach every trader of the Country with the best possible solution to their trading worries.
-                        Our unique way, To give the best out of day trading recommendations, we do understand the
-                        context of market psychology related to individual stock performance. For the betterment of
-                        entry and exit, we follow our methods and systems of day trading</p>
+                        Bestwaysmartfinancial is a business name that is explained as Stock market Research with Entry, Exit, and Target for Gains. We are a team of professionals with 10+ years of experience in research and trading in Indian Markets. Bestwaysmartfinancial was formed based on providing research support to Indian retail traders and investors To reach every trader of the Country with the best possible solution to their trading worries. Our unique way is to give the best out-of-day trading recommendations, we do understand the context of market psychology related to individual stock performance. For the betterment of entry and exit, we follow our methods and systems of day trading.</p>
                 </div>
                 <!-- Categories -->
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="fade-left">
                     <h6>Contact</h6>
                     <ul>
                         <li>
-                            <p><b>STREETGAINS</b></p>
-                            <p><i class="fa fa-map-marker"></i> No.2, 4th Main, Chandra Layout<br>Banglore-560040 </p>
+                            <p><b>Bestway Financial</b></p>
+                            <p class="color-code"><i class="fa fa-map-marker"></i> 10/1 Yashavant Nivas road, First floor, Indore, M.P.</p>
                         </li>
                         <li>
-                            <p><a href="tel:+91990391006"><i class="fa fa-phone"></i> +91 9900391006</a></p>
+                            <p class="color-code"><a href="tel:+919405546653" class="color-code"><i class="fa fa-phone"></i> +91 9405546653</a></p>
                         </li>
                         <li>
-                            <p><a href="mailto:research@streetgains.in"><i class="fa fa-envelope"></i>
-                                    research@streetgains.in</a></p>
+                            <p class="color-code"><a href="mailto:info@bestwaysmartfinancial.com" class="color-code"><i class="fa fa-envelope"></i>
+                                info@bestwaysmartfinancial.com</a></p>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
-    <div class="footer-lt" style="border-bottom: 1px solid #f0483e; border-bottom-width: 1px;">
+    <div class="footer-lt" style="border-bottom: 1px solid #f0483e; border-bottom-width: 1px;" data-aos="fade-right">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 text-center"> <a href="Privacy-Policy.html" target="_blank">Privacy Policy</a> <a
-                        href="Terms-Conditions.html" target="_blank">Terms & Conditions</a> <a href="Disclaimer.html"
-                        target="_blank">Disclaimer</a> <a href="Notice.html" target="_blank">Notice</a>
+                <div class="col-md-12 text-center"> 
+                    <a href="#" target="_blank">Privacy Policy</a> 
+                    <a href="#" target="_blank">Terms & Conditions</a> 
+                    <a href="#" target="_blank">Disclaimer</a> 
+                    <a href="#" target="_blank">Notice</a>
                 </div>
             </div>
         </div>
@@ -1404,7 +1370,7 @@
                 <div class="col-md-6">
                     <div class="pull-left" style="font-size:11px;">
                         <p class="pull-left" style="font-size:11px;">
-                            SEBI Research Analyst - Streetgains Advisory Services <br>
+                            SEBI Research Analyst - Bestway Financial Advisory Services <br>
                             Type: Individual <br>
                             SEBI Registration Number - INH200003208</p>
                     </div>
@@ -1412,7 +1378,7 @@
                 <div class="col-md-6">
                     <div class="pull-right" style="font-size:11px;">
                         <p class="pull-right" style="font-size:12px;line-height:1.1"> © All Rights Reserved <span
-                                style="color:#1347ba">StreetGains </span></p>
+                                class="color-code">Bestway Financial </span></p>
                     </div>
                 </div>
             </div>
@@ -1547,7 +1513,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer-last">
+        <!-- <div class="footer-last">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -1566,11 +1532,11 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="btFtSEBI" style="text-align:right; width:100%;">SEBI Registration Number -
-                            INH200003208<br>© All Rights Reserved StreetGains </div>
+                            INH200003208<br>© All Rights Reserved Bestway Financial </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
     </div>
     </div>
@@ -2014,11 +1980,11 @@
             });
         });
     </script>
-    <center>
+    <!-- <center>
         <font size="2">This is the free demo result. For a full version of this website, please go to <a
                 href="https://www6.waybackmachinedownloader.com/website-downloader-online/scrape-all-files/">Website
                 Downloader</a></font>
-    </center>
+    </center> -->
 </body>
 
 </html>
