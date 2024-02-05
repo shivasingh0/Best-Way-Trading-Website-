@@ -806,45 +806,43 @@
                     <div class="col-md-5 flex-inner" id="register">
                         <div class="register_form_div">
                             <!-- <h2 class="mb-3" style="margin-top: -30px !important">Register for Free Trial </h2> -->
-                            <form class="form">
+                            <form class="form" onsubmit="Mail(); reset(); return false">
                                 <p class="title">Register for Free Trial </p>
-                                <!-- <p class="message">Signup now and get full access to our app. </p> -->
 
                                 <label>
-                                    <input class="input" type="text" placeholder="" required="">
+                                    <input class="input" type="text" placeholder="" required="" id="name">
                                     <span>Full Name</span>
                                 </label>
 
                                 <label>
-                                    <input class="input" type="text" placeholder="" required="">
+                                    <input class="input" type="text" placeholder="" required="" id="mobile">
                                     <span>Mobile No.</span>
                                 </label>
 
                                 <label>
-                                    <input class="input" type="email" placeholder="" required="">
+                                    <input class="input" type="email" placeholder="" required="" id="email">
                                     <span>Email</span>
                                 </label>
 
                                 <label>
                                     <!-- <input class="input" type="email" placeholder="" required=""> -->
-                                    <select class="input">
+                                    <select class="input" id="service" required>
                                         <option value="">- Select Service -</option>
-                                        <option value="">Basic Stock Cash</option>
-                                        <option value="">Basic Stock Future</option>
-                                        <option value="">Basic Stock Option</option>
-                                        <option value="">Basic Index Future</option>
-                                        <option value="">Stock Cash Premium</option>
-                                        <option value="">Stock Future Premium</option>
-                                        <option value="">Stock Option Premium</option>
-                                        <option value="">Stock Index Option</option>
+                                        <option value="Basic-Stock-Cash">Basic Stock Cash</option>
+                                        <option value="Basic-Stock-Future">Basic Stock Future</option>
+                                        <option value="Basic-Stock-Option">Basic Stock Option</option>
+                                        <option value="Basic-Index-Future">Basic Index Future</option>
+                                        <option value="Stock-Cash-Premium">Stock Cash Premium</option>
+                                        <option value="Stock-Future-Premium">Stock Future Premium</option>
+                                        <option value="Stock-Option-Premium">Stock Option Premium</option>
+                                        <option value="Stock-Index-Option">Stock Index Option</option>
                                     </select>
                                 </label>
 
-                                <div style="    display: flex;
-                                gap: 7px;">
+                                <div style="display: flex; gap: 7px;">
                                     <div class="checkbox-wrapper-12">
                                         <div class="cbx">
-                                            <input id="cbx-12" type="checkbox" />
+                                            <input id="cbx-12" type="checkbox" required />
                                             <label for="cbx-12"></label>
                                             <svg width="15" height="14" viewbox="0 0 15 14" fill="none">
                                                 <path d="M2 8.36364L6.23077 12L13 2"></path>
@@ -868,7 +866,7 @@
                                     Subscribe to weekly newsletter, terms & conditions
                                 </div>
 
-                                <button class="submit">Submit</button>
+                                <button class="submit" type="submit">Submit</button>
                             </form>
                             <div id="response"></div>
                         </div>
@@ -982,7 +980,7 @@
                 </div>
             </div>
         </div>
-        <div class="clearfix"></div>
+        <!-- <div class="clearfix"></div> -->
         <div class="section-grey subcript-section" style="padding-top:5rem; padding-bottom:5rem;">
             <div class="container">
                 <div class="row">
@@ -1367,77 +1365,6 @@
             </div>
         </div>
     </div>
-    <!-- fOOTER END -->
-    <!-- <div class="footer-section">
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="myaccordion">
-                            <div class="ftHead">Contact <i class="fa fa-plus"></i></div>
-                            <div class="ftMenu mobile-none">
-                                <ul>
-                                    <li>BESTWAY FINANCIAL<br> No.2, 4th Main, Chandra Layout <br> Banglore-560040 </li>
-                                    <li><a href="tel:+91990391006"> +91 9900391006</a></li>
-                                    <li><a href="mailto:research@streetgains.in"> research@streetgains.in</a></li>
-                                    <li>
-                                        <a
-                                            href="https://api.whatsapp.com/send?phone=919900391006&text=Hi%20Streetgains,START"><i
-                                                class="fa fa-whatsapp"></i></a>
-                                        <a href="https://t.me/Streetgains"><i class="fa fa-telegram"></i></a>
-                                        <a href="https://www.facebook.com/Streetgains"><i
-                                                class="fa fa-facebook"></i></a>
-                                        <a href="https://twitter.com/streetgains"><i class="fa fa-twitter"></i></a>
-                                        <a
-                                            href="https://www.youtube.com/channel/UCZM_0FoMprZv_wMkS6XuUmw/featured?view_as=subscriber"><i
-                                                class="fa fa-youtube"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="myaccordion">
-                            <div class="ftHead">Company <i class="fa fa-plus"></i></div>
-                            <div class="ftMenu mobile-none">
-                                <ul>
-                                    <li><a href="About.html">About</a></li>
-                                    <li><a href="Services.html">Services</a></li>
-                                    <li><a href="https://streetgains.zohorecruit.in/jobs/Careers"
-                                            target="_blank">Careers</a></li>
-                                    <li><a href="InvestorCharter.html">Investor Charter</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="myaccordion">
-                            <div class="ftHead">Register <i class="fa fa-plus"></i></div>
-                            <div class="ftMenu mobile-none">
-                                <ul>
-                                    <li><a href="Pricing.html">Subscribe</a></li>
-                                    <li><a href="FreeTrial.html">Try Free</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="myaccordion">
-                            <div class="ftHead">Fine Print <i class="fa fa-plus"></i></div>
-                            <div class="ftMenu mobile-none">
-                                <ul>
-                                    <li><a href="PrivacyPolicy.html">Privacy Policy</a></li>
-                                    <li><a href="TermsConditions.html">Terms & Conditions</a></li>
-                                    <li><a href="Disclaimer.html">Disclaimer</a></li>
-                                    <li><a href="Grievance.html">Grievance Redressal Process</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
     </div>
     </div>
     <!-- JS -->
@@ -1880,11 +1807,27 @@
             });
         });
     </script>
-    <!-- <center>
-        <font size="2">This is the free demo result. For a full version of this website, please go to <a
-                href="https://www6.waybackmachinedownloader.com/website-downloader-online/scrape-all-files/">Website
-                Downloader</a></font>
-    </center> -->
+    <!-- Contact enquiry script -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function Mail() {
+
+            const name = document.getElementById('name').value;
+            const mobile = document.getElementById('mobile').value;
+            const email = document.getElementById('email').value;
+            const service = document.getElementById('service').value
+
+            Email.send({
+                SecureToken: "17a6d1a1-498d-4625-8a75-d00a8a3d9c5b",
+                To: 'deepkp0687@gmail.com',
+                From: "enquiry.bestwayfinancial@gmail.com",
+                Subject: "This Enquiry from Website Landing-page",
+                Body: "Name:- " + name + "<br> Mobile:- " + mobile + "<br> Email:- " + email + "<br> Service:- " + service
+            }).then(
+                message => alert(message)
+            );
+        }
+    </script>
 </body>
 
 </html>
