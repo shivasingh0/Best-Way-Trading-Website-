@@ -1,0 +1,3698 @@
+/*About Pge CSS*/
+
+.games-title {
+    font-size: 1.82rem;
+    color: #424242;
+}
+
+.gamesText {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Inter";
+}
+
+.mission .ourMiss {
+    /*font-size: 52px;*/
+    font-weight: 400;
+    color: #424242;
+}
+
+.mission .text {
+    font-size: 1rem;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 25px;
+}
+
+.mission {
+    margin: 0px 0px 20px 0px;
+}
+
+.mission-txt p {
+    margin: 20px 0px 20px 0px;
+    color: #424242;
+}
+
+.postion {
+    margin: 0px 0px 10px 0px;
+}
+
+.foundWrap {
+    background-color: #fff;
+    width: 160px;
+    height: 160px;
+    border-radius: 100px;
+    border: 1px solid #606060;
+    padding: 11px 8px;
+}
+
+.name {
+    font-size: 1.5rem !important;
+    color: #424242 !important;
+}
+
+.mission .name {
+    /*font-size: 40px;*/
+    color: #424242;
+    margin: 30px 0px 0px 0px;
+}
+
+.mission p {
+    font-weight: 400;
+    margin-top: 40px;
+    font-family: "Inter";
+}
+
+.buss-section .buss-title {
+    /*font-size: 38px;*/
+    /*font-weight: 300;*/
+    margin-bottom: 20px;
+    font-family: "Inter";
+    color: #424242;
+}
+
+.buss-txt p {
+    font-family: "Inter";
+    font-weight: 400;
+    color: #424242;
+}
+
+.research .heading {
+    /*font-size: 42px;
+	font-weight: 300;*/
+    color: #424242;
+    margin-top: 0px;
+    font-family: "Inter";
+}
+
+.research p {
+    font-weight: 400;
+    font-family: "Inter";
+}
+
+.research .subText {
+    font-style: italic;
+    font-weight: 400;
+    font-family: "Inter";
+}
+
+.research .warren {
+    font-size: 20px;
+    margin-top: 26px;
+}
+
+.research .media {
+    border: 1px solid #606060;
+    padding: 30px;
+    margin-top: 60px;
+}
+
+.research .mediaText {
+    background-color: #fff;
+    padding: 18px;
+    margin: auto;
+    position: relative;
+    top: -65px;
+    font-size: 25px;
+    font-family: "Inter";
+}
+
+.subscription .heading {
+    font-size: 32px;
+    font-weight: 300;
+    font-family: "Inter";
+}
+
+.subscription .num {
+    font-size: 46px;
+    color: #424242;
+}
+
+.subscription .numSubscr {
+    font-size: 26px;
+}
+
+
+/*End About Pge CSS*/
+
+
+/*Price Pge CSS*/
+
+.price-title {
+    font-size: 2.75rem;
+    color: #424242;
+    margin-top: 50px;
+}
+
+.price-subtitle {
+    font-size: 2rem;
+    margin-top: 10px;
+    color: #424242;
+}
+
+.tab-content {
+    border-radius: 0px;
+    margin-top: 0px;
+}
+
+.tradingTab .tab-content {
+    /* border:1px solid #606060; */
+    border-radius: 5px;
+    margin-top: 0px;
+}
+
+.perfor-wrap {
+    padding: 15px;
+}
+
+.tabList p {
+    font-size: 13px;
+    margin: 0px 0px 7px 0px;
+}
+
+.tabList {
+    /* border-bottom: 1px solid #dde0e4; */
+    background-color: white;
+    padding: 10px 10px 0px 10px;
+}
+
+.streetTab ul li {
+    /* padding: 10px 10px 5px 10px; */
+    /* margin-bottom: 5px; */
+}
+
+.streetTab ul li a.active {
+    color: #2b6ab1 !important;
+}
+
+.streetTab ul li a {
+    color: #bfbfbf !important;
+    font-size: 1.2rem;
+}
+
+.streetTab .card-body {
+    padding: 0px !important;
+    background: transparent !important;
+}
+
+.streetTab .card {
+    background-color: transparent !important;
+}
+
+.services-tab .nav-tabs .nav-link.active {
+    background-color: transparent !important;
+}
+
+.services-tab-top ul li {
+    padding: 10px !important;
+}
+
+.services-tab-top.nav-tabs .nav-item {
+    padding: 10px !important;
+}
+
+.streetTab .nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    color: #606060;
+    background-color: #f7f8fa !important;
+    border-bottom: 1px solid #2b6ab1 !important;
+    border-left: transparent;
+    border-top: transparent;
+    border-right: transparent;
+}
+
+.streetTab .nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    border-bottom: 0px transparent;
+    color: #bfbfbf;
+}
+
+.streetTab .nav-tabs {
+    border-bottom: 0px solid transparent;
+}
+
+.streetTab .line {
+    border-bottom: 1px solid #dde0e4;
+}
+
+.streetTab .line li:first-child {
+    padding-left: 0px;
+}
+
+.streetTab .nav-link:hover {
+    background-color: transparent !important;
+    color: #606060 !important;
+    border-color: transparent;
+}
+
+.streetTab .tabWeap {
+    border: 1px solid #606060;
+    padding: 30px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.streetTab .heading {
+    font-size: 34px;
+    color: #4dabdb;
+    margin-bottom: 15px;
+}
+
+.streetTab .tabList>ul {
+    padding-left: 0px;
+    margin: 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dde0e4;
+}
+
+.streetTab .tabList>ul>li {
+    list-style: none;
+    /* border:1px solid #606060; */
+    /*padding: 10px; */
+    background-color: #fff;
+    /*border-radius: 5px; */
+}
+
+.streetTab .tabList>ul>li .tabListrect {
+    background-color: none;
+    width: 95px;
+    height: 70px;
+    border: 1px solid #2b6ab1;
+    border-radius: 4px;
+    /* float: left; */
+    /* margin: 0 auto; */
+}
+
+.streetTab .text {
+    font-size: 15px;
+    padding: 0px 0px 5px 0px;
+    text-align: left;
+}
+
+.redioList ul li {
+    list-style: none;
+}
+
+.redioList .redioWrap {
+    background-color: #fff;
+    padding: 7px 0px 5px 5px;
+    border-radius: 5px;
+    color: #424242;
+    width: 115px;
+    text-align: left;
+}
+
+.redioBtn {
+    position: relative;
+    float: right;
+    margin-right: 15px;
+}
+
+.redioBtn [type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+
+.redioBtn [type="radio"]:checked+label,
+.redioBtn [type="radio"]:not(:checked)+label {
+    position: relative;
+    cursor: pointer;
+    line-height: 24px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.redioBtn [type="radio"]:checked+label:before,
+.redioBtn [type="radio"]:not(:checked)+label:before {
+    content: "";
+    position: absolute;
+    /* right: 0; */
+    top: 12px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #6fca00 !important;
+    border-radius: 100%;
+    background: #fff;
+    left: -17px;
+}
+
+.redioBtn [type="radio"]:checked+label:after,
+.redioBtn [type="radio"]:not(:checked)+label:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #6fca00;
+    position: absolute;
+    top: 15px;
+    /* right: -16px; */
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    left: -15px;
+}
+
+.redioBtn [type="radio"]:not(:checked)+label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+.redioBtn[type="radio"]:checked+label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.progress {
+    width: 160px;
+    height: 160px;
+    float: left;
+    background-color: transparent;
+    margin: 0px 5px;
+}
+
+.progress .track,
+.progress .fill {
+    fill: #fff;
+    stroke-width: 8px;
+    transform: rotate(90deg) translate(0px, -80px);
+}
+
+.progress .track {
+    stroke: #fff;
+}
+
+.progress .fill {
+    stroke: rgb(255, 255, 255);
+    stroke-dasharray: 219.99078369140625;
+    stroke-dashoffset: -219.99078369140625;
+    transition: stroke-dashoffset 1s;
+}
+
+.progress.green .fill {
+    stroke: #6fca00;
+}
+
+.progress .value,
+.progress .text {
+    font-family: "Open Sans";
+    fill: #000;
+    text-anchor: middle;
+}
+
+.progress .text {
+    font-size: 12px;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+.summeryWrap {
+    width: 100%;
+    background-color: #fbfbfb;
+    padding: 50px;
+    box-shadow: 5px 5px 0px #9c9c9c;
+}
+
+.summeryWrap .check {
+    background-color: #0078c1;
+    color: #fff;
+    float: right;
+    padding: 5px 36px;
+}
+
+.summeryWrap .heading {
+    font-size: 1.5rem;
+    color: #387ed1;
+    margin: 20px 0px;
+}
+
+.summeryWrap .cont {
+    font-size: 1rem;
+}
+
+.summeryWrap .cont1 {
+    font-size: 1rem;
+    padding-left: 0px;
+}
+
+.summeryWrap .cont1 span a {
+    background-color: #eaeaea;
+    padding: 2px 26px;
+    border-radius: 50px;
+    color: #aaaaaa;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 6px;
+}
+
+.summeryWrap .cont1 span a:hover {
+    color: #fff;
+    background-color: #387ed1;
+}
+
+.summeryWrap .rs {
+    text-align: right;
+    font-size: 1rem;
+}
+
+.summeryWrap .rs1 {
+    text-align: right;
+    font-size: 1rem;
+}
+
+.table th,
+.table td {
+    padding: 0rem;
+    vertical-align: top;
+    border-top: 0px solid #dee2e6;
+}
+
+.trPad {
+    padding-bottom: 20px !important;
+}
+
+.summeryWrap .rs2 {
+    text-align: right;
+    font-size: 1rem;
+    color: #387ed1;
+    border-top: 1px solid #606060;
+    padding-top: 15px;
+}
+
+.summeryWrap .Amt {
+    font-size: 1rem;
+    color: #387ed1;
+    border-top: 1px solid #606060;
+    padding-top: 15px;
+}
+
+.proceBtn {
+    background-color: #387ed1;
+    border-radius: 3px;
+    color: #fff;
+    padding: 10px 30px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+.proceBtn:hover {
+    background-color: #222;
+    transition: all 100ms linear;
+    color: #fff;
+}
+
+.tradingTab.streetTab .card .card-header {
+    display: block;
+    background-color: transparent;
+    border-bottom: 0px;
+    padding: 10px;
+    font-family: "Inter" !important;
+}
+
+.tradingTab.streetTab .card .card-header a {
+    color: #54a8d4;
+    font-size: 24px;
+}
+
+.tradingTab.streetTab .card .card-header a:hover {
+    text-decoration: none;
+}
+
+.tradingTab.streetTab .card-body {
+    padding: 0rem 1.25rem 0rem 1.25rem;
+}
+
+.services-tab ul li {
+    padding: 0px 20px 0px 0px !important;
+}
+
+.nav-tabs .nav-item {
+    margin-bottom: -2px;
+    padding: 0px 5px 0px 5px;
+}
+
+.services-tab-top {}
+
+.credtiesImg img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pricing-left-sec {
+    margin: -37px 0px 0px 0px;
+}
+
+.services-tabs {
+    padding: 10px 10px 0px 10px;
+}
+
+
+/*End Price Pge CSS*/
+
+
+/*Performance Pge CSS*/
+
+.performance .heading {
+    font-size: 2.75rem;
+    color: #424242;
+}
+
+.performance .text {
+    font-size: 18px;
+}
+
+.performance .white-box {
+    -webkit-box-shadow: 0 8px 7px -9px #777;
+    -moz-box-shadow: 0 8px 7px -9px #777;
+    box-shadow: 0 8px 7px -9px #777;
+}
+
+.performance .white-box {
+    background: #ffffff;
+    padding: 20px 15px;
+    border-radius: 17px;
+    display: flex;
+    margin: 0 15px;
+    border: 1px solid;
+}
+
+.performance .slick-slide {
+    transition: transform 0.7s;
+}
+
+.slick-list.draggable {
+    padding: 10px 0px;
+}
+
+.performance .slick-slide:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    height: 100px;
+}
+
+.performance .nifty-title .title {
+    font-size: 17px;
+    float: left;
+    padding: 16px 0px;
+    font-family: "Inter";
+}
+
+.performance .performance-slider .slick-slide:focus {
+    outline: none;
+}
+
+.performance .prev-arrow {
+    content: "\f105";
+    font-family: FontAwesome;
+    color: #000;
+    font-size: 30px;
+}
+
+.performance .slide-arrow {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    background: transparent;
+}
+
+.performance .prev-arrow {
+    left: -40px;
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 15px solid #86c200;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.performance .next-arrow {
+    right: -40px;
+    width: 0;
+    height: 0;
+    border-right: 0 solid transparent;
+    border-left: 15px solid #86c200;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.performance .performance-slider {
+    /*padding: 1.563vw 0; */
+}
+
+.performance .progrtext {
+    font-size: 12px;
+}
+
+.performance .progress--circle.progress--25 {
+    float: right;
+}
+
+.performance .progress {
+    width: 70px;
+    height: 70px;
+    float: left;
+    background-color: transparent;
+    margin: 0px 10px;
+}
+
+.performance .form-group-name input,
+select {
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #606060;
+    padding: 12px 15px;
+    width: 100%;
+    color: #606060;
+    font-family: "Inter";
+}
+
+.performance .searchBtn {
+    background-color: #387ed1;
+    padding: 12px 57px;
+    color: #fff;
+    float: right;
+    font-family: "Inter";
+    width: 100%;
+}
+
+.performance .searchBtn:hover {
+    background-color: #222;
+    transition: all 100ms linear;
+    color: #fff;
+}
+
+.performance .gainswrap1 {
+    /* padding: 20px; */
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Inter";
+}
+
+.performance .gainswrap {
+    /* padding: 20px; */
+    font-size: 1.8rem;
+    position: relative;
+    font-family: "Inter";
+    font-weight: 500;
+    text-align: left;
+}
+
+.performance .gainswrap:before {
+    position: absolute;
+    content: "";
+    border-right: 2px solid #606060;
+    right: 0px;
+    /* top: 32px; */
+    height: 88px;
+}
+
+.performance .btmLine {
+    width: 70%;
+    height: 5px;
+    margin: 6px 0px 15px 0px;
+}
+
+.performance .btmLine.green {
+    background-color: #5bb579;
+}
+
+.performance .btmLine.blue {
+    background-color: #29abe2;
+}
+
+.performance .btmLine.orange {
+    background-color: #ffc200;
+}
+
+.performance .btmLine.ligreen {
+    background-color: #2bf2c2;
+}
+
+.performance .gainswrap span {
+    font-size: 24px;
+    color: #808080;
+    font-family: "Inter";
+    font-weight: 400;
+}
+
+.performance .gainswrap1 span {
+    font-size: 24px;
+    color: #808080;
+    font-family: "Inter";
+    font-weight: 400;
+}
+
+.performance .gainswrap span i {
+    font-size: 20px;
+    color: #808080;
+}
+
+.page-item.active .page-link {
+    z-index: 0;
+    color: #fff;
+    background-color: #387ed1;
+    border-color: #387ed1;
+}
+
+.perfortable .table-bordered th,
+.table-bordered td {
+    border: 1px solid #dee2e6;
+    padding: 5px 10px;
+}
+
+.perfortable .table-bordered th {
+    border-bottom: 2px solid #dee2e6;
+}
+
+.perfortable .table-bordered td {
+    font-size: 13px;
+}
+
+.perfortable .greenBtn {
+    background-color: #388e3c;
+    color: #fff;
+    padding: 0px 6px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.perfortable .greenText {
+    color: #388e3c;
+    font-weight: 700;
+}
+
+.perfortable .greenText i {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.perfortable .greenBtn1 {
+    background-color: #8bc34a;
+    color: #fff;
+    padding: 0px 6px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.perfortable .greenText1 {
+    color: #8bc34a;
+    font-weight: 700;
+}
+
+.perfortable .greenText1 i {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.perfortable .redBtn {
+    background-color: #f44336;
+    color: #fff;
+    padding: 0px 6px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.perfortable .redText {
+    color: #f44336;
+    font-weight: 700;
+}
+
+.perfortable .redText i {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.perfortable .greyBtn {
+    background-color: #78909c;
+    color: #fff;
+    padding: 0px 6px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.perfortable .greyText {
+    color: #78909c;
+    font-weight: 700;
+}
+
+.perfortable .greyText i {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.subscribeWrap {
+    width: 100%;
+    background-color: #3484cf;
+    padding: 50px 0px;
+    margin-top: 2%;
+}
+
+.page-item:first-child .page-link {
+    margin-left: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.pagination li a {
+    color: #606060;
+}
+
+.page-link:focus {
+    z-index: 0;
+    outline: 0;
+    box-shadow: none;
+}
+
+
+/*End Performance Pge CSS*/
+
+
+/*Ask an expert Pge CSS*/
+
+.ask-title {
+    font-size: 2.75rem;
+    margin-top: 0px;
+    color: #424242;
+}
+
+.ask-title span {
+    color: #606060;
+}
+
+.dailyWrap {
+    width: 100%;
+    /*padding: 25px; */
+    border-radius: 10px;
+}
+
+.dailyWrap .mapImg {
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.dailyWrap1 {
+    width: 100%;
+    /*padding: 25px;*/
+    border-radius: 10px;
+}
+
+.dailyWrap1 .text {
+    text-align: left;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.expertSocial {
+    margin: 25px auto;
+    display: table;
+}
+
+.expertSocial ul {
+    margin-bottom: 0px;
+}
+
+.expertSocial li {
+    background-color: #312c30;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 4px;
+}
+
+.expertSocial li:hover {
+    background-color: #29abe2;
+    transition: 0.6s;
+}
+
+.expertSocial li a {
+    color: #fff;
+    font-size: 22px;
+}
+
+.ques-ansWrap ul {
+    padding-left: 0px;
+}
+
+.ques-ansWrap ul li {
+    list-style: none;
+    position: relative;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dde0e4;
+    padding-bottom: 10px;
+}
+
+.ques-ansWrap ul li:last-child {
+    border-bottom: 0px solid;
+}
+
+.ques-ansWrap .ques-title {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.ques-ansWrap .ques-title b {
+    color: #f44336;
+}
+
+.ques-ansWrap .ques-title span {
+    font-size: 0.65rem;
+    color: #f44336;
+}
+
+.ques-ansWrap .quesList ul li:last-child {
+    margin-left: 30px;
+}
+
+.ques-ansWrap .imgWrap {
+    background-color: #a0a4a5;
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    margin: auto;
+}
+
+.ques-ansWrap .cliName {
+    font-size: 0.7rem;
+    margin: 5px 0px 0px 0px;
+    color: #333333;
+}
+
+.ques-ansWrap .cliPost {
+    color: #333333;
+    font-size: 0.7rem;
+}
+
+.ques-ansWrap .date {
+    color: #3484cf;
+    margin-top: 5px;
+    font-size: 0.5rem;
+}
+
+.ques-ansWrap .cont {
+    font-size: 0.7rem;
+    text-align: left;
+    line-height: 1rem;
+    font-weight: 400;
+}
+
+.ques-ansWrap .cont span {
+    color: #3484cf;
+}
+
+.dailyWrap1 .cms {
+    background-color: #ffff;
+    height: 50px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    color: #424242;
+    border: 1px solid #dde0e4;
+}
+
+.dailyWrap1 ::-webkit-input-placeholder {
+    /* Edge */
+    color: #424242;
+}
+
+.dailyWrap1 :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #424242;
+}
+
+.dailyWrap1 ::placeholder {
+    color: #424242;
+}
+
+.dailyWrap1 .textField {
+    background-color: #fff;
+    height: 50px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    color: #424242;
+    padding: 14px;
+    height: 200px;
+    width: 100%;
+    border: 1px solid #dde0e4;
+}
+
+.dailyWrap1 .subBtn {
+    background-color: #387ed1;
+    border-radius: 3px;
+    color: #fff;
+    padding: 10px 30px;
+    margin-top: 20px;
+    display: list-item;
+    font-size: 1.2em;
+    width: 100%;
+    text-align: center;
+}
+
+.dailyWrap1 a.subBtn:hover {
+    background-color: #222;
+    transition: all 100ms linear;
+    color: #fff;
+}
+
+.rssWrap {
+    width: 100%;
+    background-color: #fff1d2;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 12%;
+    border: 1px solid #f8dc94;
+}
+
+
+/*End Ask an expert Pge CSS*/
+
+
+/*Refer and earn Pge CSS*/
+
+.referBtn {
+    background-color: #387ed1;
+    border-radius: 3px;
+    color: #fff;
+    padding: 10px 30px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+.referBtn:hover {
+    background-color: #222;
+    transition: all 100ms linear;
+    color: #fff;
+}
+
+a.referBtn {
+    color: #fff;
+    text-decoration: none;
+}
+
+.referWrap .referTital {
+    font-size: 54px;
+    margin-bottom: 36px;
+}
+
+.referWrap .referText {
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+}
+
+.referWrap .referText a {
+    color: #387ed1;
+}
+
+.investWrap .invest-title {
+    /*font-size: 60px;*/
+    margin-top: 50px;
+}
+
+.investWrap .invest-title span {
+    color: #387ed1;
+}
+
+.investWrap .invest-text {
+    font-size: 24px;
+}
+
+.referWrap1 {
+    background-color: #f7f8fa;
+    /* padding: 50px; */
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+
+.referWrap1 .referHeading {
+    font-size: 35px;
+}
+
+.referWrap1 .referSubHead {
+    font-size: 1rem;
+}
+
+.referWrap1 .idname {
+    font-size: 1rem;
+}
+
+.referWrap1 .field {
+    width: 50%;
+    background-color: #efefef;
+    margin-top: 22px;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    margin-left: 2%;
+    padding: 5px 10px;
+}
+
+.genrateBtn {
+    background-color: #387ed1;
+    border-radius: 3px;
+    color: #fff;
+    padding: 10px 30px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+.genrateBtn:hover {
+    background-color: #222;
+    transition: all 100ms linear;
+    color: #fff;
+    text-decoration: none;
+}
+
+.referWrap1 .dont {
+    font-size: 1rem;
+}
+
+
+/*End Refer and earn Pge CSS*/
+
+
+/*Blog Internal Pge CSS*/
+
+.blogMenuList {}
+
+.blogMenuList li:not(:last-child) {
+    margin-right: 1.5rem;
+}
+
+.blogMenuList li a {
+    font-size: 1.2rem;
+    /*color: #277e82;*/
+    color: #606060;
+    text-decoration: none;
+}
+
+.blogMenuList li a:hover {
+    font-size: 1.2rem;
+    /*color: #277e82;*/
+    color: #387ed1;
+    text-decoration: none;
+}
+
+.swingTradWrap .tradImgWrap {
+    width: 100%;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #b2eaed;
+    box-shadow: 8px 8px 0px #777777;
+    padding: 20px 60px;
+}
+
+.swingTradWrap1 .rulesHeading {
+    /*font-size: 56px;*/
+    /*color: #277e82;*/
+}
+
+.swingTradWrap1 .btnList .methodBtn {
+    background-color: #387ed1;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.swingTradWrap1 .btnList .methodBtn a {
+    color: #fff;
+}
+
+.swingTradWrap1 .btnList .methodBtn a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.swingTradWrap1 .btnList .methodBtn:hover {
+    background: #222;
+    color: #fff;
+    text-decoration: none;
+    transition: all 100ms linear;
+}
+
+.btnList ul li {
+    margin: 25px 20px 0px 0px;
+}
+
+.swingTradWrap1 .addComt {
+    /*color: #277e82;*/
+    margin-top: 10%;
+    font-size: 18px;
+}
+
+.writtenWrap .writenby {
+    /*color: #277e82;*/
+}
+
+.writtenWrap .writename {
+    /*color: #277e82;*/
+    font-weight: 700;
+}
+
+.writtenWrap .profileWrap {
+    width: 100px;
+    height: 100px;
+    background-color: #277e82;
+    border-radius: 100px;
+    margin-top: 15px;
+    padding: 9px;
+}
+
+.writtenWrap .profileWrap img {
+    width: 48%;
+}
+
+.writtenWrap .writtenCont {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.writtenWrap .writtenCont span {
+    /*color: #277e82;*/
+    font-weight: 600;
+}
+
+
+/*End Blog Internal Pge CSS*/
+
+
+/*Free trial Pge CSS*/
+
+.cashIntraWrap {
+    /* padding: 1% 0% 4% 0%; */
+}
+
+.cashIntraWrap .cashIntraHead {
+    font-size: 2.75rem;
+    color: #424242;
+}
+
+.cashIntraWrap .cashIntraText {
+    font-size: 1rem;
+    color: #424242;
+}
+
+.winningList {
+    background-color: #7dd4e2;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: #3a3a3a;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.winningList1 {
+    background-color: #f7f8fa;
+    border-radius: 10px;
+    padding: 5px 30px;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.winningList1 img {
+    width: 48%;
+}
+
+.winningList1 .cont {
+    font-size: 1rem;
+    padding: 10px 0px;
+}
+
+.theRece {
+    /* font-size: 28px;*/
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: "Inter";
+    margin: 0px 0px 35px 0px;
+    color: #424242;
+}
+
+.prfitableWrap {
+    width: 100%;
+    background-color: #f7f8fa;
+    padding: 25px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.prfitableWrap .cms {
+    background-color: #ffff;
+    height: 50px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    color: #424242;
+    border: 1px solid #dde0e4;
+}
+
+.prfitableWrap .subBtn {
+    background-color: #387ed1;
+    border-radius: 3px;
+    color: #fff;
+    padding: 10px 30px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 1.2em;
+    width: 100%;
+    text-align: center;
+}
+
+.prfitableWrap .subBtn:hover {
+    background-color: #222;
+    transition: all 100ms linear;
+    color: #424242;
+    text-decoration: none;
+}
+
+.prfitableWrap ::-webkit-input-placeholder {
+    /* Edge */
+    color: #424242;
+}
+
+.prfitableWrap :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #424242;
+}
+
+.prfitableWrap ::placeholder {
+    color: #424242;
+}
+
+.prfitableWrap .redBox {
+    background-color: #e03e25;
+    color: #fff;
+    width: 100%;
+    padding: 10px 30px;
+    position: absolute;
+    top: 32px;
+    left: 0px;
+    font-size: 19px;
+}
+
+.prfitableWrap .fieldWrp {
+    margin-top: 45%;
+}
+
+.prfitableWrap .redBox .num {
+    font-size: 58px;
+}
+
+.prfitableWrap .redBox .num i {
+    font-size: 44px;
+}
+
+
+/*cheack Box*/
+
+.prfitableWrap .check {
+    display: block;
+    position: relative;
+    padding-left: 53px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: 15px;
+}
+
+.prfitableWrap .check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.prfitableWrap .checkmark {
+    position: absolute;
+    top: 0;
+    left: 18px;
+    height: 22px;
+    width: 27px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 0px #606060;
+}
+
+.prfitableWrap .check input:checked~.checkmark {
+    background-color: #ffffff;
+}
+
+.prfitableWrap .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.prfitableWrap .check input:checked~.checkmark:after {
+    display: block;
+}
+
+.prfitableWrap .check .checkmark:after {
+    left: 10px;
+    top: 2px;
+    width: 8px;
+    height: 15px;
+    border: solid #2d4c9d;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+/*End cheack Box*/
+
+
+/*End Free trial Pge CSS*/
+
+
+/*multibaggers Pge CSS*/
+
+.baggersWrap .bagger-title {
+    font-size: 2.75rem;
+    color: #424242;
+}
+
+.baggersWrap .bagger-title span {
+    color: #606060;
+}
+
+.baggersWrap .cont {
+    font-size: 1.25rem;
+    color: #424242;
+}
+
+.multiBagWrap .heading {
+    /* font-size: 34px; */
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "Inter";
+    color: #424242;
+    text-align: left;
+}
+
+.multiBagWrap .heading span {
+    color: #424242;
+}
+
+.multiBagWrap .cont {
+    font-size: 1rem;
+    color: #424242;
+    font-weight: 400;
+}
+
+.multiBagWrap img {
+    /*	width: 58%; */
+    padding: 10px 0px;
+}
+
+.multiBagWrap .text {
+    /*font-size: 45px;*/
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "Inter";
+    margin-bottom: 1.5rem;
+    color: #424242;
+}
+
+.priceWrap {
+    width: 100%;
+    border: 1px solid #dde0e4 !important;
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 20px;
+    height: 222px;
+    margin-top: 15%;
+    background-color: #fff;
+}
+
+.priceWrap .number {
+    font-size: 26px;
+    color: #000;
+    margin-top: 10%;
+}
+
+.text-pricing-head {
+    margin-left: 10px;
+}
+
+.priceWrap .anum {
+    font-size: 20px;
+    color: #000;
+}
+
+.priceWrap .cost {
+    font-size: 16px;
+    color: #000;
+    margin-top: 22px;
+}
+
+.priceWrap:hover {
+    border: 1px solid #bbedff;
+    background-color: #bbedff;
+    transition: 0.6s;
+}
+
+.performanceTable .table {
+    margin-bottom: 0px;
+    margin-top: 2%;
+}
+
+.performanceTable {
+    padding-bottom: 3%;
+}
+
+.performanceTable table {
+    border-bottom: 0px !important;
+}
+
+.recent-stock {
+    color: #424242 !important;
+}
+
+.sec-top-first {
+    padding-top: 5%;
+}
+
+
+/*.performanceTable table tr td{
+	width: 16.66%;
+}*/
+
+.performanceTable table tr th {
+    /*width: 16.66%;*/
+    border: 0px;
+    padding: 18px 0px;
+}
+
+.performanceTable table td {
+    vertical-align: middle;
+    border: 1px solid transparent;
+}
+
+.performanceTable table .borderTr {
+    border: 1px solid #9a9a9a !important;
+    border-radius: 16px !important;
+    padding: 5px;
+    text-align: center;
+}
+
+.performanceTable table .borderTr1 {
+    border-radius: 16px !important;
+    background-color: #e7e7e7;
+    text-align: center;
+}
+
+.performanceTable .table>tbody>tr>.vertical-align--middle {
+    vertical-align: middle;
+}
+
+.performanceTable .tdPad {
+    padding: 34px 0px;
+}
+
+.performanceTable .table-responsive-stack tr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.performanceTable .table-responsive-stack td,
+.performanceTable .table-responsive-stack th {
+    display: block;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.performanceTable .table-responsive-stack .table-responsive-stack-thead {
+    font-weight: 500;
+}
+
+
+/*End multibaggers Pge CSS*/
+
+
+/*Business Partner Pge CSS*/
+
+.busPartWrap img {
+    margin-top: 10%;
+}
+
+.busPartWrap .bus-title {
+    font-size: 2.75rem;
+    margin-top: 20px;
+    color: #424242;
+}
+
+.busPartWrap .cont {
+    font-size: 1.35rem;
+    /*  margin-top: 3.5rem; */
+    margin-bottom: 15px;
+    color: #424242;
+}
+
+.busPartWrap .cont span {
+    color: #387ed1;
+}
+
+.earnHead {
+    /*font-size: 72px;*/
+    margin-top: 10px;
+    color: #3a3a3a;
+    text-align: right;
+    /* line-height: 72px; */
+}
+
+.business-pokImg img {
+    width: 40%;
+    margin-top: 0%;
+}
+
+.busPartList {
+    margin-top: 0%;
+}
+
+.busPartList ul {
+    padding-left: 0px;
+}
+
+.busPartList ul li {
+    position: relative;
+    list-style: none;
+    font-size: 1.25rem;
+    padding-left: 74px;
+    margin-bottom: 34px;
+    color: #424242;
+}
+
+.busPartList span {
+    color: #424242;
+    font-size: 1rem;
+    margin-bottom: 1.823vw;
+}
+
+.busPartList ul li:before {
+    content: "";
+    background-image: url(../images/rs-icon.png);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 60px;
+    height: 59px;
+}
+
+
+/*.busPartList ul li .text{
+	padding-left: 15px;
+}*/
+
+.busPartList1 span {
+    color: #424242;
+    font-size: 1rem;
+    margin-bottom: 1.823vw;
+}
+
+.busPartList1 {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.busPartList1 .contAlig {
+    text-align: right;
+}
+
+.busPartList1 .business-pokImg1 img {
+    width: 54%;
+    margin-top: 10%;
+    float: right;
+}
+
+.busPartCms {
+    background-color: #f7f8fa;
+    width: 100%;
+    border-radius: 10px;
+    /* padding: 30px; */
+    color: #666666;
+    margin-bottom: 10%;
+}
+
+.busPartCms .cms {
+    background-color: transparent;
+    border: 0px solid;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border: 1px solid rgba(83, 91, 98, 0.25);
+    padding: 22px 10px;
+    font-weight: 400;
+}
+
+.busPartCms ::-webkit-input-placeholder {
+    /* Edge */
+    color: #666666;
+}
+
+.busPartCms :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #666666;
+}
+
+.busPartCms ::placeholder {
+    color: #666666;
+}
+
+.busPartCms .regisBtn {
+    background-color: #387ed1;
+    border-radius: 3px;
+    color: #fff;
+    padding: 10px 30px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 1.2rem;
+    transition: all 100ms linear;
+}
+
+.busPartCms .regisBtn:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #222;
+}
+
+
+/*End Business Partner Pge CSS*/
+
+
+/*Notice Pge CSS*/
+
+.noticeWrap img {
+    margin-top: 10%;
+}
+
+.noticeWrap .notice-title {
+    font-size: 2.75rem;
+    color: #424242;
+    /* margin-top: 50px; */
+}
+
+.noticeWrap .subBtn {
+    color: #606060;
+    font-size: 24px;
+}
+
+.noticeWrap .subBtn i {
+    background-color: #ed8a48;
+    color: #fff;
+    padding: 2px 5px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.noticeWrap1 {
+    margin-top: 3%;
+}
+
+.noticeWrap1 .subHead {
+    color: #424242;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.noticeWrap1 .cont {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.noticeWrap1 .dateTime {
+    color: #424242;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+
+/*End Notice Pge CSS*/
+
+
+/*terms and condition Pge CSS*/
+
+.termsWrap {
+    margin-bottom: 2%;
+}
+
+.termsWrap .terms-title {
+    font-size: 2.75rem;
+    line-height: 1.25;
+    position: relative;
+    color: #424242;
+    text-align: center;
+}
+
+.termsWrap .terms-title:before {
+    content: "";
+    position: absolute;
+    top: 75px;
+    left: 42.5%;
+    width: 15%;
+    height: 3px;
+    background-color: #606060;
+}
+
+.termsWrap .text {
+    font-size: 20px;
+    color: #232323;
+    line-height: 42px;
+}
+
+.termsWrap1 {
+    margin-top: 5%;
+}
+
+.termsWrap .text span {
+    font-size: 25px;
+    color: #232323;
+    line-height: 42px;
+}
+
+.termsWrap1 p {
+    margin-bottom: 3%;
+    font-size: 1rem;
+    color: #232323;
+    line-height: 42px;
+}
+
+.advisory-credit-img img {
+    width: 50%;
+}
+
+
+/*End terms and condition Pge CSS*/
+
+button:focus {
+    outline: 0px dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+}
+
+
+/*Responsive Media Quries*/
+
+@media (min-width: 1200px) {}
+
+@media (max-width: 1299px) {}
+
+@media (max-width: 1199px) {
+    /*About Pge CSS*/
+    .games-title {
+        font-size: 24px;
+    }
+    .mission .ourMiss {
+        /*font-size: 44px;*/
+    }
+    .mission .name {
+        /*font-size: 34px;*/
+    }
+    .buss-section .buss-title {
+        font-size: 30px;
+    }
+    /*End About Pge CSS*/
+    /*Price Pge CSS*/
+    /*.streetTab ul li a {font-size: 19px;}*/
+    .streetTab .heading {
+        font-size: 30px;
+    }
+    .streetTab .tabList>ul>li .tabListrect {
+        width: 56px;
+        height: 56px;
+    }
+    .summeryWrap .check {
+        padding: 5px 22px;
+    }
+    /*.streetTab ul li{padding: 0px 0px 0px 0px;}*/
+    .streetTab .tabList>ul>li .tabListrect {
+        margin: auto;
+        float: none;
+    }
+    .streetTab .text {
+        text-align: center;
+        float: none;
+    }
+    .tabList .col {
+        margin: auto;
+    }
+    .streetTab ul li a {
+        font-size: 15px;
+    }
+    /*End Price Pge CSS*/
+    /*Performance Pge CSS*/
+    .performance .progress {
+        width: 51px;
+        height: 51px;
+        margin: 0px 5px;
+    }
+    .performance .nifty-title .title {
+        padding: 10px 0px;
+    }
+    .performance .gainswrap {
+        font-size: 25px;
+    }
+    .performance .gainswrap span {
+        font-size: 20px;
+    }
+    .performance .gainswrap1 {
+        font-size: 25px;
+    }
+    .performance .gainswrap1 span {
+        font-size: 20px;
+    }
+    .perfortable .table-bordered th,
+    .table-bordered td {
+        padding: 5px 8px;
+    }
+    .subList ul li a {
+        font-size: 36px;
+    }
+    .subList ul li img {
+        margin-left: 100%;
+        width: 80%;
+    }
+    .performance .heading {
+        margin-top: 5%;
+    }
+    /*End Performance Pge CSS*/
+    /*Ask an expert Pge CSS*/
+    .quesImg img {
+        margin-top: 5%;
+    }
+    .ques-ansWrap .ques-title {
+        font-size: 26px;
+    }
+    .ques-ansWrap .cont {
+        font-size: 1rem;
+        color: #424242;
+    }
+    /*End Ask an expert Pge CSS*/
+    /*Refer and earn Pge CSS*/
+    .referWrap .referTital {
+        font-size: 48px;
+        margin-bottom: 36px;
+    }
+    .referWrap1 {
+        padding: 50px 0px;
+    }
+    /*End Refer and earn Pge CSS*/
+    /*Blog Internal Pge CSS*/
+    .blogMenuList {
+        margin-top: 5%;
+    }
+    .swingTradWrap1 .rulesHeading {
+        /*font-size: 34px;*/
+    }
+    .btnList ul li {
+        margin: 14px 20px 0px 0px;
+    }
+    .writtenWrap .profileWrap {
+        width: 88px;
+        height: 88px;
+    }
+    .writtenWrap .writtenCont {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .writtenWrap .writename {
+        font-size: 19px;
+    }
+    /*End Blog Internal Pge CSS*/
+    /*Free trial Pge CSS*/
+    .winningList {
+        font-size: 24px;
+    }
+    .winningList1 .cont {
+        font-size: 16px;
+    }
+    .prfitableWrap {
+        padding: 25px 10px;
+    }
+    .prfitableWrap .redBox .num {
+        font-size: 38px;
+    }
+    .prfitableWrap .redBox .num i {
+        font-size: 35px;
+    }
+    /*End Free trial Pge CSS*/
+    /*multibaggers Pge CSS*/
+    .baggersWrap .bagger-title {
+        font-size: 66px;
+    }
+    .baggersWrap .cont {
+        font-size: 28px;
+    }
+    .multiBagWrap .cont {
+        font-size: 26px;
+    }
+    .multiBagWrap .text {
+        font-size: 37px;
+    }
+    .priceWrap {
+        padding: 15px 10px;
+    }
+    .priceWrap .cost {
+        font-size: 14px;
+    }
+    .streetTab .text {
+        padding: 9px 0px;
+    }
+    /*End multibaggers Pge CSS*/
+}
+
+@media (max-width: 991px) {
+    .section-first .pay-us-video-section img {
+        margin-top: 10%;
+    }
+    /*About Pge CSS*/
+    /*.gameWrap{margin-top: 10%;}*/
+    /*End About Pge CSS*/
+    /*Price Pge CSS*/
+    .tabList .col {
+        flex-basis: auto;
+        max-width: 100%;
+    }
+    .progress--circle.progress--25 {
+        margin-top: 30px;
+    }
+    .redioBtn {
+        float: left;
+    }
+    .redioList {
+        margin-top: 30px;
+    }
+    .summeryWrap .cont1 {
+        font-size: 16px;
+        padding-left: 53px;
+    }
+    .summeryWrap .cont {
+        font-size: 16px;
+    }
+    .summeryWrap .rs {
+        text-align: right;
+        font-size: 16px;
+    }
+    .summeryWrap .rs1 {
+        text-align: right;
+        font-size: 16px;
+    }
+    .summeryWrap .cont1 span a {
+        font-size: 12px;
+    }
+    .summeryWrap .Amt {
+        font-size: 16px;
+    }
+    .summeryWrap .rs2 {
+        font-size: 16px;
+    }
+    .proceBtn {
+        font-size: 16px;
+    }
+    .summeryWrap {
+        padding: 50px 35px;
+    }
+    .summeryWrap .check {
+        padding: 5px 12px;
+    }
+    .streetTab .tabList>ul>li .tabListrect {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    .tradingTab.streetTab .text {
+        float: none;
+        text-align: center;
+    }
+    .progress--circle.progress--25 {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+    .tradingTab.streetTab .redioBtn {
+        float: none;
+    }
+    .tradingTab.streetTab .card .card-header a {
+        text-align: center;
+        font-size: 20px;
+    }
+    .cash-txt ul li {
+        padding: 0px 16px 0px 27px;
+    }
+    .streetTab ul li {
+        padding: 0px 16px 0px 0px;
+    }
+    /*End Price Pge CSS*/
+    /*Performance Pge CSS*/
+    .performance .heading {
+        margin-top: 10%;
+    }
+    .performance .progress--circle.progress--25 {
+        margin-top: 2px;
+    }
+    .performance .progress {
+        width: 68px;
+        height: 68px;
+    }
+    .subList ul li img {
+        margin-left: 35%;
+        width: 80%;
+    }
+    .performance .next-arrow {
+        right: -23px;
+    }
+    .performance .prev-arrow {
+        left: -23px;
+    }
+    .performance .gainswrap {
+        padding: 20px 0px;
+        font-size: 18px;
+    }
+    .performance .gainswrap1 {
+        padding: 20px 0px;
+        font-size: 18px;
+    }
+    .performance .gainswrap span {
+        font-size: 14px;
+    }
+    .performance .gainswrap1 span {
+        font-size: 14px;
+    }
+    .performance .gainswrap:before {
+        height: 60px;
+        top: 25px;
+    }
+    /*End Performance Pge CSS*/
+    /*Ask an expert Pge CSS*/
+    .quesImg img {
+        margin-top: 12%;
+        width: 62%;
+    }
+    .expertSocial li {
+        width: 32px;
+        height: 32px;
+    }
+    .expertSocial li a {
+        font-size: 16px;
+    }
+    .ques-ansWrap .cliName {
+        font-size: 20px;
+    }
+    .dailyWrap1 {
+        padding: 15px;
+    }
+    .dailyWrap1 .cms {
+        height: 40px;
+    }
+    /*End Ask an expert Pge CSS*/
+    /*Refer and earn Pge CSS*/
+    .referWrap1 .field {
+        width: 50%;
+    }
+    .ask-title {
+        font-size: 46px;
+        margin-top: 20px;
+    }
+    .referWrap1 .referHeading {
+        font-size: 28px;
+    }
+    .referWrap1 .referSubHead {
+        font-size: 24px;
+        margin-top: 10px !important;
+    }
+    .referWrap1 .idname {
+        font-size: 19px;
+    }
+    .referWrap1 .dont {
+        font-size: 15px;
+    }
+    /*End Refer and earn Pge CSS*/
+    /*Blog Internal Pge CSS*/
+    .writtenWrap .writename {
+        font-size: 14px;
+    }
+    /*End Blog Internal Pge CSS*/
+    /*Free trial Pge CSS*/
+    .section-third .credit-title {
+        font-size: 22px;
+    }
+    /*End Free trial Pge CSS*/
+    /*Business Partner Pge CSS*/
+    .busPartWrap .bus-title {
+        font-size: 52px;
+    }
+    .busPartWrap .cont {
+        font-size: 20px;
+    }
+    /*.earnHead {font-size: 56px;}*/
+    .busPartList ul li {
+        font-size: 17px;
+    }
+    .orderA {
+        order: 2;
+    }
+    .orderB {
+        order: 1;
+    }
+    /*End Business Partner Pge CSS*/
+    /*terms and condition Pge CSS*/
+    .termsWrap {
+        margin-top: 10%;
+    }
+    .termsWrap .terms-title {
+        font-size: 46px;
+    }
+    .termsWrap .text {
+        font-size: 18px;
+    }
+    .termsWrap .terms-title:before {
+        top: 82px;
+    }
+    /*End terms and condition Pge CSS*/
+}
+
+@media (max-width: 767px) {
+    .advisory-credit-img img {
+        width: 80%;
+    }
+    .tabList p {
+        text-align: center !important;
+    }
+    .text-pricing-head {
+        text-align: center !important;
+        margin-top: 25px;
+    }
+    .streetTab .tabList>ul>li {
+        list-style: none;
+        /* border: 1px solid #606060; */
+        padding: 15px;
+        /* background-color: #f7f8fa; */
+        /* border-radius: 5px; */
+        /* text-align: center; */
+    }
+    .performance .form-group-name input,
+    select {
+        margin: 0px 0px 10px 0px;
+    }
+    /* .streetTab .card-body {
+        padding: 10px !important;
+    } */
+    .termsWrap .terms-title {
+        text-align: left;
+    }
+    .top-padd {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+    .termsWrap .terms-title {
+        margin-bottom: 2rem;
+    }
+    .perfor-box p {
+        margin-bottom: 0px;
+    }
+    .swingTradWrap1 .btnList .methodBtn {
+        width: 100%;
+    }
+    .subscribeWrap {
+        margin-top: 0%;
+    }
+    /*About Pge CSS*/
+    .subscription .heading {
+        font-size: 25px;
+    }
+    .subscription .num {
+        font-size: 40px;
+    }
+    .subscription .numSubscr {
+        font-size: 22px;
+    }
+    .busPartList1 .business-pokImg1 img {
+        margin-bottom: 40px;
+        float: unset;
+    }
+    .tab-2 .nav-item a {
+        font-size: 11px;
+    }
+    .gamesText {
+        font-size: 1rem;
+        font-weight: 400;
+        font-family: "Inter";
+    }
+    .section-earn {
+        padding: 40px 0px 20px 0px !important;
+    }
+    .busPartWrap .cont {
+        /*  margin-top: 2.5rem; */
+    }
+    .games-title {
+        /* margin-top: 30px; */
+    }
+    .mission .ourMiss {
+        /*font-size: 38px;*/
+    }
+    .subscription .numSubscr {
+        margin-bottom: 50px;
+    }
+    .buss-section .buss-title {
+        text-align: left;
+    }
+    .buss-txt p {
+        text-align: left;
+        margin-bottom: 34px;
+    }
+    .mission p {
+        margin-top: 8px;
+    }
+    /*End About Pge CSS*/
+    /*Price Pge CSS*/
+    .price-title {
+        font-size: 40px;
+    }
+    .price-subtitle {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .streetTab .heading {
+        font-size: 24px;
+    }
+    .summeryWrap .check {
+        float: none;
+        margin-top: 15px;
+    }
+    .summeryWrap .heading {
+        font-size: 25px;
+    }
+    .tradingTab.streetTab .card .card-header {
+        background-color: rgba(0, 0, 0, 0.03);
+        padding: 0px;
+    }
+    .tradingTab.streetTab .card .card-header a {
+        color: #606060;
+        font-size: 20px;
+    }
+    .tradingTab.streetTab .card .tab-pane {
+        border: 0px;
+    }
+    .proceBtn {
+        padding: 5px 24px;
+        float: left;
+    }
+    .tradingTab .streetTab .tabList>ul>li {
+        text-align: center;
+    }
+    .tradingTab.streetTab .text {
+        float: none;
+        text-align: center;
+    }
+    .tradingTab.streetTab .redioBtn {
+        float: none;
+    }
+    .tradingTab .tab-content {
+        margin-top: 0px;
+    }
+    .tradingTab.streetTab .card-body {
+        /* padding: 2rem 1rem 2rem 1rem; */
+    }
+    .streetTab ul li {
+        padding: 0px 16px 0px 7px;
+        margin-bottom: 0px;
+    }
+    .cash-txt ul li {
+        padding: 0px 16px 0px 27px;
+        display: table;
+        width: 100%;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .streetTab .nav-tabs {
+        margin-bottom: 15px;
+    }
+    /*.streetTab .tabList > ul > li {margin: 20px;}*/
+    /*End Price Pge CSS*/
+    /*Performance Pge CSS*/
+    .performance .heading {
+        margin-top: 15%;
+        font-size: 38px;
+    }
+    .performance .next-arrow {
+        right: -15px;
+    }
+    .performance .prev-arrow {
+        left: -15px;
+    }
+    .performance .gainswrap:before {
+        height: 1px;
+        top: 114px;
+        width: 100%;
+        right: 0;
+        border-bottom: 2px solid #606060;
+    }
+    .Research-Sec {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .sub-now {
+        text-align: center;
+    }
+    .sub-img {
+        margin-left: auto;
+        margin-right: auto;
+        display: table;
+    }
+    .performance .btmLine {
+        margin-left: 15%;
+    }
+    .performance .gainswrap {
+        text-align: center;
+    }
+    .performance .gainswrap1 {
+        text-align: center;
+    }
+    .performance .searchBtn {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        display: table;
+    }
+    .sub-wrap i {
+        font-size: 19px;
+    }
+    .nifty-title {
+        width: 100%;
+    }
+    .performance .progress--circle.progress--25 {
+        float: none;
+    }
+    /*End Performance Pge CSS*/
+    /*Ask an expert Pge CSS*/
+    .dailyWrap1 {
+        margin-top: 30px;
+    }
+    .dailyWrap1 .text {
+        text-align: left;
+    }
+    .ques-ansWrap .ques-title {
+        text-align: center;
+        font-size: 24px;
+    }
+    .ques-ansWrap .cont {
+        text-align: left;
+    }
+    .date-time {
+        text-align: center;
+        margin-bottom: 10px !important;
+    }
+    .ques-ansWrap .date {
+        margin-top: 5px;
+    }
+    .rssWrap {
+        margin-top: 5%;
+    }
+    /*End Ask an expert Pge CSS*/
+    /*Refer and earn Pge CSS*/
+    .section-first .pay-us-video-section img {
+        margin-top: 24%;
+    }
+    .ask-title {
+        font-size: 38px;
+    }
+    .investWrap .invest-title {
+        text-align: center;
+    }
+    .investWrap .invest-text {
+        font-size: 24px;
+        margin-bottom: 28px;
+        text-align: center;
+    }
+    .sub-img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*End Refer and earn Pge CSS*/
+    /*Blog Internal Pge CSS*/
+    .writtenWrap .writename {
+        font-size: 18px;
+    }
+    .blogMenuList .d-flex {
+        display: -ms-block !important;
+        display: block !important;
+        text-align: center;
+    }
+    .swingTradWrap1 .rulesHeading {
+        text-align: center;
+    }
+    .btnList ul {
+        text-align: center;
+    }
+    .btnList ul li {
+        margin: 14px 0px 0px 0px;
+    }
+    .swingTradWrap1 .rulesHeading {
+        margin-top: 20px;
+    }
+    .swingTradWrap1 .addComt {
+        margin: 0px 0px 0px 0px;
+        padding: 5px 10px;
+        text-decoration: none;
+        border-radius: 3px;
+        color: #fff;
+        display: table;
+        width: 100%;
+    }
+    .writtenWrap {
+        text-align: center;
+    }
+    .writtenWrap .profileWrap {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*End Blog Internal Pge CSS*/
+    /*Free trial Pge CSS*/
+    .cashIntraWrap {
+        padding: 0% 4%;
+    }
+    .streetTab .tabList>ul {
+        text-align: center;
+    }
+    .progress--circle.progress--25 {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        position: relative;
+        left: 20%;
+        right: 20%;
+    }
+    .redioList .redioWrap {
+        background-color: transparent !important;
+    }
+    .theRece {
+        text-align: center;
+    }
+    .streetTab .tabList>ul>li .tabListrect {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    .prfitableWrap .fieldWrp {
+        margin-top: 22%;
+    }
+    /*End Free trial Pge CSS*/
+    /*multibaggers Pge CSS*/
+    .baggersWrap .bagger-title {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .baggersWrap .cont {
+        font-size: 16px;
+    }
+    .multiBagWrap .heading {
+        font-size: 19px;
+    }
+    .multiBagWrap .cont {
+        font-size: 16px;
+        text-align: left;
+    }
+    .multiBagWrap .text {
+        font-size: 19px;
+        margin-bottom: 20px;
+    }
+    .priceWrap .number {
+        margin-top: 12%;
+    }
+    .priceWrap {
+        margin-top: 8%;
+    }
+    .multiBagWrap img {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .performanceTable .tdPad {
+        padding: 4px 0px;
+    }
+    .performanceTable .table-responsive-stack tr {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        border-bottom: 3px solid #ccc;
+        display: block;
+    }
+    .performanceTable .table-responsive-stack td {
+        float: left\9;
+        width: 100%;
+    }
+    .performanceTable table tr td {
+        width: 100%;
+        text-align: center;
+    }
+    /*End multibaggers Pge CSS*/
+    /*Business Partner Pge CSS*/
+    .earnHead {
+        /*font-size: 44px;*/
+        text-align: center !important;
+    }
+    .business-pokImg img {
+        width: 37%;
+        margin-bottom: 40px;
+    }
+    .business-pokImg img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .busPartList1 .business-pokImg1 img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 8%;
+    }
+    .busPartCms {
+        padding: 0px 20px;
+    }
+    .busPartList ul li {
+        padding-left: 0px;
+        text-align: center;
+        padding-top: 70px;
+    }
+    .busPartList ul li:before {
+        left: 44%;
+        margin-left: -10px;
+    }
+    /*End Business Partner Pge CSS*/
+    /*Notice Pge CSS*/
+    .noticeWrap1 .subHead {
+        text-align: left;
+    }
+    .noticeWrap1 .cont {
+        text-align: left;
+        font-size: 20px;
+    }
+    .noticeWrap1 .dateTime {
+        text-align: left;
+    }
+    /*End Notice Pge CSS*/
+    /*terms and condition Pge CSS*/
+    .termsWrap .text {
+        text-align: left;
+    }
+    .termsWrap p {
+        text-align: left !important;
+    }
+    /*End terms and condition Pge CSS*/
+}
+
+@media (max-width: 575px) {
+    /*About Pge CSS*/
+    .research .heading {
+        font-size: 30px;
+    }
+    .mt-5 {
+        margin-top: 1rem !important;
+    }
+    /*End About Pge CSS*/
+    /*Performance Pge CSS*/
+    .performance .heading {
+        /* margin-top: 20%; */
+        font-size: 24px;
+        line-height: 44px;
+        margin-bottom: 0px;
+    }
+    .performance .progress {
+        width: 68px;
+        height: 68px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .performance .next-arrow {
+        right: -14px;
+    }
+    .performance .prev-arrow {
+        left: -14px;
+    }
+    .performance .nifty-title .title {
+        padding: 16px 0px;
+        font-size: 26px;
+    }
+    /*.performance .progress--circle.progress--25{float: left;}*/
+    /*End Performance Pge CSS*/
+    /*Ask an expert Pge CSS*/
+    .ask-title {
+        font-size: 25px;
+        margin-top: 22px;
+        margin-bottom: 30px;
+    }
+    .ques-ansWrap .ques-title {
+        font-size: 1rem;
+        text-align: left;
+    }
+    /*End Ask an expert Pge CSS*/
+    /*Refer and earn Pge CSS*/
+    .section-first .pay-us-video-section img {
+        margin-top: 10%;
+        width: 100%;
+    }
+    .referWrap .referText {
+        margin-top: 0px;
+        font-size: 18px;
+    }
+    .investWrap .invest-title {
+        /* font-size: 46px; */
+        margin-top: 40px;
+    }
+    .investWrap .invest-text {
+        font-size: 24px;
+        margin-bottom: 0px;
+    }
+    .referWrap1 {
+        padding: 20px 10px 30px 10px;
+    }
+    .referWrap1 .field {
+        width: 72%;
+    }
+    .referWrap .referTital {
+        font-size: 40px;
+    }
+    /*End Refer and earn Pge CSS*/
+    /*Blog Internal Pge CSS*/
+    .swingTradWrap1 .rulesHeading {
+        font-size: 1.5rem;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .writtenWrap .writtenCont {
+        margin-top: 0px !important;
+        margin-bottom: 25px;
+        text-align: left;
+    }
+    /*End Blog Internal Pge CSS*/
+    /*Free trial Pge CSS*/
+    .cashIntraWrap .cashIntraHead {
+        font-size: 2rem;
+        color: #424242;
+    }
+    .theRece {
+        font-size: 23px;
+    }
+    .winningList {
+        font-size: 15px;
+    }
+    .winningList1 .cont {
+        font-size: 10px;
+    }
+    .prfitableWrap .fieldWrp {
+        margin-top: 36%;
+    }
+    .prfitableWrap .redBox .num {
+        font-size: 54px;
+    }
+    .prfitableWrap .redBox .num i {
+        font-size: 46px;
+    }
+    /*End Free trial Pge CSS*/
+    /*multibaggers Pge CSS*/
+    .performanceTable table tr td {
+        width: 100%;
+    }
+    .performanceTable table tr th {
+        width: 100%;
+    }
+    .priceWrap .number {
+        margin-top: 19%;
+    }
+    .priceWrap .cost {
+        margin-top: 6px;
+    }
+    /*End multibaggers Pge CSS*/
+    /*Business Partner Pge CSS*/
+    .busPartWrap .bus-title {
+        font-size: 40px;
+    }
+    .earnHead {
+        /*font-size: 34px;*/
+        line-height: 42px;
+    }
+    .busPartList1 .business-pokImg1 img {
+        width: 54%;
+        margin-top: 12%;
+    }
+    .mt4 {
+        margin-top: 20px;
+    }
+    /*End Business Partner Pge CSS*/
+    /*Notice Pge CSS*/
+    .noticeWrap1 .subHead {
+        font-size: 24px;
+    }
+    .noticeWrap1 .cont {
+        font-size: 18px;
+    }
+    .noticeWrap1 .dateTime {
+        font-size: 15px;
+    }
+    /*End Notice Pge CSS*/
+    /*terms and condition Pge CSS*/
+    .termsWrap .text {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .termsWrap .terms-title {
+        font-size: 2rem;
+    }
+    .termsWrap .terms-title:before {
+        left: 30%;
+        width: 36%;
+        top: 50px;
+    }
+    .termsWrap1 p {
+        font-size: 16px;
+        line-height: 30px;
+        text-align: left;
+        margin-bottom: 35px;
+    }
+    .termsWrap .terms-title:before {
+        content: "";
+        position: absolute;
+        top: 45px;
+        left: 42.5%;
+        width: 15%;
+        height: 3px;
+        background-color: #606060;
+        left: 0px !important;
+        text-align: left;
+    }
+    /*End terms and condition Pge CSS*/
+}
+
+@media (max-width: 375px) {
+    /*Performance Pge CSS*/
+    .performance .next-arrow {
+        right: -21px;
+    }
+    .performance .prev-arrow {
+        left: -21px;
+    }
+    .performance .nifty-title .title {
+        padding: 16px 0px;
+        font-size: 26px;
+        float: none;
+        text-align: center;
+    }
+    /*End Performance Pge CSS*/
+    /*Free trial Pge CSS*/
+    .prfitableWrap .fieldWrp {
+        margin-top: 45%;
+    }
+    /*End Free trial Pge CSS*/
+    /*Refer and earn Pge CSS*/
+    .referWrap1 .referSubHead {
+        font-size: 15px;
+    }
+    /*End Refer and earn Pge CSS*/
+}
+
+.section-earn {
+    background: #f7f8fa;
+    padding: 60px 0px;
+}
+
+.back-bg {
+    background: #f7f8fa;
+}
+
+
+/* .streetgains-section-wrap {
+    padding-top: 7% !important;
+} */
+
+.mainbox a {
+    text-decoration: none;
+}
+
+.chartbox {
+    padding: 20px 15px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.boxlink:hover .chartbox {
+    -webkit-box-shadow: 1px 1px 5px 1px rgba(18, 123, 188, 0.5);
+    -moz-box-shadow: 1px 1px 5px 1px rgba(18, 123, 188, 0.5);
+    box-shadow: 1px 1px 5px 1px rgba(18, 123, 188, 0.5);
+}
+
+.chartbox .title {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    padding-bottom: 7px;
+    border-bottom: 1px solid rgba(83, 91, 98, 0.25);
+}
+
+.chartbox .title img {
+    margin-right: 8px;
+}
+
+.chartbox .title span {
+    float: right;
+    text-align: right;
+    font-size: 0.6rem;
+    color: #333333;
+}
+
+.chartbox .title span span {
+    color: #127bbc;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.chartbox .progress {
+    width: 100% !important;
+    height: 19px;
+    margin: 10px;
+    background: lightgrey;
+}
+
+.chartbox .progress-bar {
+    color: #333333;
+}
+
+.chartbox .progress .progress-bar-success {
+    background-color: #6fca00;
+    padding: 5px;
+}
+
+.chartbox p {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.chartbox .explore {
+    font-size: 0.7rem;
+    padding: 5px 10px;
+}
+
+.perform-detail .box {
+    padding: 30px 30px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.perform-detail .box .progress {
+    width: 100%;
+    height: auto;
+}
+
+.perform-detail .box h5 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.perform-detail .box .wraper {
+    width: 100%;
+}
+
+.perform-detail .box .summarylist {
+    width: 100%;
+    clear: both;
+    padding-top: 36px;
+}
+
+.perform-detail .box .summarylist ul {
+    list-style: none;
+    padding-left: 0px;
+    width: 50%;
+    float: left;
+}
+
+.perform-detail .box .summarylist ul li {
+    padding-left: 0px;
+    font-size: 0.9rem;
+}
+
+.summarylist li i {
+    color: #3484cf;
+}
+
+.summarylist li.green span {
+    color: #6fca00;
+}
+
+.summarylist li.red span {
+    color: #e03e25;
+}
+
+.perfortable button {
+    margin: 0 auto;
+}
+
+#doughnutChart {
+    height: 180px;
+}
+
+#fullpage .service-fileter-sec .streetTab .card {
+    margin-bottom: 0px;
+}
+
+#fullpage .tabListrect {
+    border: 1px solid #2b6ab1;
+    border-radius: 5px;
+}
+
+.avgprofit {
+    padding: 5px;
+}
+
+.avgprofit .percent-text i {
+    font-size: 1.2rem;
+    color: #387ED1;
+    margin-bottom: 0px;
+}
+
+.avgprofit .percent-text {
+    padding: 10px 0;
+    /* background-color: #387ed1; */
+    background-color: #FAFAFA;
+    border-radius: 10px;
+}
+
+.streetTab a:hover {
+    border-color: #387ED1;
+    text-decoration: none;
+    color: none;
+}
+
+.streetTab a {
+    color: #606060;
+}
+
+.tabListrect img {
+    border-radius: 10px;
+}
+
+.filtertab {
+    border: 1px solid #dde0e4;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.filtertab h3 {
+    margin: 0px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.filtertab .fbox {
+    margin-top: 10px;
+}
+
+.filtertab .fbox h6 {
+    margin-top: 10px;
+    font-size: .90rem;
+}
+
+@media screen and (max-width:500px) {
+    .avgprogress {
+        position: relative !important;
+        left: 100%;
+    }
+    .per_leftbox {
+        position: absolute;
+        right: 30%;
+    }
+    .per_box {
+        display: inline-block;
+    }
+    .per_rightbox {
+        position: relative;
+        left: 100%;
+    }
+    .listspan {
+        margin-bottom: 5px !important;
+        padding-left: 12% !important;
+    }
+    .progress--circle.progress--25 {
+        left: 0 !important;
+        right: 0 !important;
+        width: 63%;
+    }
+    #ordersummary {
+        width: 97%;
+    }
+    .perform-detail .box .summarylist ul {
+        width: 100%;
+    }
+    /* .prtbox
+  {
+    margin-right:0px !important;
+  }
+   
+
+  .prtxt2
+  {
+    position: relative;
+    left:46px;
+    top: 10px;
+  }  */
+    #viewService {
+        margin-left: 28%;
+    }
+    .redioList1 {
+        margin-top: 15px !important;
+        margin-right: 41% !important;
+    }
+    .ques-ansWrap .cont {
+        font-size: smaller;
+    }
+    .ques-ansWrap .ques-title {
+        font-size: small;
+    }
+    #q {
+        width: 82% !important;
+    }
+    .qbtn {
+        width: 14% !important;
+        position: absolute;
+        right: 14px;
+    }
+    .service-fileter-sec .streetTab .nav-link {
+        padding: 0px 0px !important;
+        font-size: 12px;
+    }
+    .boxprt {
+        padding-left: 0px !important;
+    }
+    .prtxt1 {
+        position: absolute;
+        left: 50px;
+    }
+    .prtxt2 {
+        position: relative;
+        left: 55px;
+    }
+    .streetTab .tabList>ul>li .tabListrect {
+        width: 67px !important;
+        height: 73px !important;
+    }
+    .streetTab .tabList>ul>li {
+        padding: 0px;
+    }
+    .text {
+        padding-right: 27px !important;
+    }
+    .customnav {
+        margin-top: 20px !important;
+        margin-left: 62px;
+    }
+    .customli {
+        position: absolute;
+        top: 36px;
+    }
+    .customli1 {
+        position: relative;
+        bottom: 6px;
+    }
+    #pre-pane-B-1 {
+        margin-top: 11%;
+    }
+}
+
+
+/* Customize the label (the container) */
+
+.containerLabel {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 13px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Hide the browser's default checkbox */
+
+.containerLabel input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+
+/* Create a custom checkbox */
+
+.checkmark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.containerLabel:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+
+.containerLabel input:checked~.checkmark {
+    background-color: #387ED1;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+.containerLabel input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the checkmark/indicator */
+
+.containerLabel .checkmark:after {
+    left: 8px;
+    top: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.containerLabel ins {
+    text-decoration: none;
+}
+
+.marketbox {
+    box-shadow: 2px 1px 2px #eee;
+}
+
+ul.marketList {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 0px !important;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0px 0px 0px 0px;
+}
+
+ul.marketList li {
+    font-size: 0.8rem;
+}
+
+ul.marketList li span.green {
+    color: green;
+}
+
+ul.marketList li span.red {
+    color: red;
+}
+
+.home-servicebox {
+    box-shadow: 2px 1px 2px #eee;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #eee;
+    margin-top: 20px;
+}
+
+.home-servicebox img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.home-servicebox p {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+ #orderTable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#orderTable td, #orderTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#orderTable tr:nth-child(even){background-color: #f2f2f2;}
+
+#orderTable tr:hover {background-color: #ddd;}
+
+#orderTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #387ed1;
+  color: white;
+}
+
+#commonTable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#commonTable td, #commonTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#commonTable tr:nth-child(odd){background-color: #f2f2f2;}
+
+#commonTable tr:hover {background-color: #ddd;}
+
+#commonTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #fff;
+}
+
+.pricesBlock {
+    width: auto;
+}
+.pricingdiv .custom-control.custom-checkbox{padding-left: 0; font-size: 12px;}
+.pricingdiv label.custom-control-label {
+    position: relative;
+    padding-right: 1.5rem;
+    font-weight: 500;
+}
+.pricingdiv label.custom-control-label::before, .pricingdiv label.custom-control-label::after{
+    right: 0;
+    left: auto;
+}
+.pricingdiv .custom-control-input:focus ~ .custom-control-label::before{
+    box-shadow:none !important;
+}
+.pricingdiv .custom-control-input:checked ~ .custom-control-label::before{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: none;
+}
+.pricingdiv .custom-control-label::after{
+    border-radius: 50%;
+}
+.pricingdiv .custom-checkbox .custom-control-label::before{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    border-color: #387ed1 !important;
+    top: 2px;
+    background: transparent;
+    z-index: 1;
+    
+}
+.pricingdiv .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after{
+    background: none;
+    background-color: #387ed1;
+    width: 15px;
+    height: 15px;
+    top: 2px;
+    border: 3px solid #fff;
+}
+.pricingdiv .text {
+font-size: 18px;
+padding: 0px 0px 5px 0px;
+text-align: left;
+}
+.pricingdiv .icoBox {
+border: 1px solid #2b6ab1;
+border-radius: 5px;
+}
+.pricingdiv .percent-text p {
+font-size: 14px;
+color: #387ed1;
+margin: 0px;
+font-weight: 500;
+}
+.pricingdiv .single_block{
+    padding: 10px;
+    border: 1px solid #fff;
+    border-bottom-color: #dde0e4;
+    border-radius: 5px;
+}
+.pricingdiv .single_block:hover{
+    border-color: #dde0e4;
+}
+.pricingdiv .icostyle{
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+}
+.pricingdiv .open-button {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: fit-content;
+}
+.checkboxdiv .custom-checkbox {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {    
+    /* New CSS By from 24-06-2022 */    
+    ul.marketList {        
+        display: block;    
+    }
+    .service-fileter-sec .cash-txt h4 {
+        display: flex;
+        align-items: center;    
+    }    
+    .service-fileter-sec .cash-txt h4 .peopleNumber{
+        margin-top: 0px;        
+        margin-left: 10px;    
+    }    
+    .smallbox {    	
+        display: block;    	
+        margin-top: 10px;    	
+        padding-left: 20px;    	
+        padding-right: 20px;    
+    }     
+    .tabList .smallbox p {   	
+        text-align: left !important;   
+    }  
+    .bloginternal ul li {
+        width: 40%;
+    }  
+    .blogMenuList ul.d-flex {
+        text-align: left;
+    }
+    .swingTradWrap1 .addComt {
+        color: #606060;
+    }
+    .bloginternal-profile {
+        margin-top: 100px;
+    }
+    .bloginternal-profile .h-100 {
+        height: auto !important;
+    }
+    .CalculatorBlock .priceBlock{
+        margin-top: 50px;
+    }
+    .pricesBlock .Earning:not(:first-child) {
+        margin-top: 30px;
+    }
+    .pricesBlock .Earning {
+        font-size: 30px;
+    }
+    .BannerText {
+        width: auto;
+        margin: 40px 0px !important;
+    }
+    .bussiness-nav {
+        padding: 0px 20px !important;
+    }
+    .bussiness-nav .navbar-collapse ul {
+        text-align: center;
+        margin: 20px 0px;
+    }
+    /* New CSS END */
+    .checkboxdiv {
+        margin-top: 20px;
+    }
+    .checkboxdiv .custom-checkbox {
+		margin-bottom: 0px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1200px) {    
+    .footer-section div.footer {        
+        padding: 20px;    
+    }
+    .footer-section div.footer-last {
+        padding: 0px 20px 50px 20px;
+    }
+    .footer-section .footer .col-md-3:last-child {
+        overflow-wrap: break-word;
+    }
+    .avgprofit .percent-text {
+        min-width: 70px;    
+        min-height: 110px;
+        word-break: break-all;
+    }
+    .trade_summary .row .col-md-6:last-child {
+        /*text-align: center;
+        margin: auto;*/
+        margin: 15px 0px;
+    }
+ /*   .trade_summary .row .col-md-6:first-child {
+         margin-left: 25px;
+    }*/
+
+    .perform-detail .box.trade_summary .summarylist ul {
+        width: 100%;
+    }
+    .streetTab ul li {
+        padding-left: 27px;
+    }
+    .cash-txt ul li:nth-child(1):before {
+        width: 16px;
+        height: 16px;
+    }
+    .cash-txt ul li:nth-child(2):before {
+        width: 16px;
+        height: 16px;
+    }
+    .cash-txt ul li:nth-child(3):before {
+        width: 16px;
+        height: 16px;
+    }
+    .streetview-sec .streetview-flex {
+        flex-direction: column-reverse;
+    }
+    .streetview-sec .best-trade {
+        margin-bottom: 20px;
+    }
+    .ques-ansWrap .ques-title {
+        font-size: 20px;
+    }
+    .bloginternal {
+        padding-top: 0px !important;
+    }
+    .bloginternal .swingTradWrap, .bloginternal .swingTradWrap .h-100 {
+        height: auto !important;
+    }
+    .bloginternal-profile .h-100 {
+        height: auto !important;
+    }
+    .pricesBlock .Earning:not(:first-child) {
+        margin-top: 30px;
+    }
+    .checkboxdiv {
+        margin-top: 20px;
+    }
+    .checkboxdiv .custom-checkbox {
+		margin-bottom: 0px;
+	}
+}
+table.table.referral_tbl {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.table.referral_tbl td,
+table.table.referral_tbl th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table.table.referral_tbl tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table.table.referral_tbl tr:hover {
+    background-color: #ddd;
+}
+
+table.table.referral_tbl th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #387ed1;
+    color: white;
+}
+.badge-div{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.badge-div .badge{
+    line-height: 1.5;
+}
+
+.yoursubscription-div .accordin-sec{
+    width: 100%;
+}
+.yoursubscription-div .accordin-sec .card{
+    border: 1px solid transparent !important;
+    margin-bottom: 0;
+    padding: 0;
+    background: #f4f0f063;
+    box-shadow: 0px 0px 7px 0px #d9d4d4;
+}
